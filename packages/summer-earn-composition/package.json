@@ -1,0 +1,38 @@
+{
+  "name": "@summerfi/summer-earn-composition",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc -b -v tsconfig.json",
+    "dev": "tsc -b tsconfig.json -w",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest --coverage",
+    "fill-vaults-missing-data": "tsx scripts/fillVaultsMissingData.ts",
+    "resolve-vaults-for-owner": "tsx scripts/resolveVaultsForOwner.ts",
+    "resolve-tokens-for-owner": "tsx scripts/resolveTokensForOwner.ts"
+  },
+  "dependencies": {
+    "dotenv": "16.4.5",
+    "viem": "^2.39.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@summerfi/eslint-config": "workspace:*",
+    "@summerfi/typescript-config": "workspace:*",
+    "eslint": "^9.0.0",
+    "typescript": "5.9.3",
+    "vitest": "^4.0.9"
+  }
+}

@@ -102,3 +102,9 @@ packages/external-dependencies
 lib
 safe*.json
 **/abis/*
+**/tokens.json
+**/vaults.json
+**/journal.jsonl
+**/*deployment.json
+**/*proposal*.json
+**/*safe*.json

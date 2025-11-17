@@ -1,0 +1,2690 @@
+[
+  {
+    "name": "Metamorpho USDC",
+    "address": "0xc0c5689e6f4D256E861F65465b691aeEcC0dEb12",
+    "chainId": 8453,
+    "assetAddress": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+    "decimals": 18
+  },
+  {
+    "name": "Lazy Summer Vault USDC",
+    "address": "0xd555F7D124a58617f49894b623b97Bf295674f14",
+    "chainId": 8453,
+    "assetAddress": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+    "decimals": 6
+  },
+  {
+    "name": "Lazy Summer Vault USDC",
+    "address": "0x4774d1cD62D20c288dFAdEfDEDF79d5B4cae1856",
+    "chainId": 42161,
+    "assetAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "decimals": 6
+  },
+  {
+    "name": "Aave DAI",
+    "address": "0xe4c2a17f38fea3dcb3bb59ceb0ac0267416806e2",
+    "chainId": 10,
+    "assetAddress": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "decimals": 18
+  },
+  {
+    "name": "Exactly USDC",
+    "address": "0x6926B434CCe9b5b7966aE1BfEef6D0A7DCF3A8bb",
+    "chainId": 10,
+    "assetAddress": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+    "decimals": 6
+  },
+  {
+    "name": "DAI yVault-A",
+    "address": "0x90b2f54C6aDDAD41b8f6c4fCCd555197BC0F773B",
+    "chainId": 137,
+    "assetAddress": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+    "decimals": 18
+  },
+  {
+    "name": "Staked USDe",
+    "address": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+    "chainId": 1,
+    "assetAddress": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "decimals": 18
+  },
+  {
+    "name": "Instadapp ETH v2",
+    "address": "0xA0D3707c569ff8C87FA923d3823eC5D81c98Be78",
+    "chainId": 1,
+    "assetAddress": "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84",
+    "decimals": 18
+  },
+  {
+    "name": "Kelp Gain",
+    "address": "0xe1B4d34E8754600962Cd944B535180Bd758E6c2e",
+    "chainId": 1,
+    "assetAddress": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
+    "decimals": 18
+  },
+  {
+    "name": "Savings Dai",
+    "address": "0x83F20F44975D03b1b09e64809B757c47f942BEeA",
+    "chainId": 1,
+    "assetAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "decimals": 18
+  },
+  {
+    "name": "Staked Frax Ether",
+    "address": "0xac3E018457B222d93114458476f3E3416Abbe38F",
+    "chainId": 1,
+    "assetAddress": "0x5E8422345238F34275888049021821E8E08CAa1f",
+    "decimals": 18
+  },
+  {
+    "name": "Staked Zentry",
+    "address": "0x996d67AA9b37df96428ad3608cb21352BF1FDB90",
+    "chainId": 1,
+    "assetAddress": "0xdBB7a34Bf10169d6d2D0d02A6cbb436cF4381BFa",
+    "decimals": 18
+  },
+  {
+    "name": "Staked FRAX",
+    "address": "0xA663B02CF0a4b149d2aD41910CB81e23e1c41c32",
+    "chainId": 1,
+    "assetAddress": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+    "decimals": 18
+  },
+  {
+    "name": " Usual Boosted USDC",
+    "address": "0xd63070114470f685b75B74D60EEc7c1113d33a3D",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 18
+  },
+  {
+    "name": "Fluid USD Coin",
+    "address": "0x9Fb7b4477576Fe5B32be4C1843aFB1e55F251B33",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 6
+  },
+  {
+    "name": "Fluid Tether USD",
+    "address": "0x5C20B550819128074FD538Edf79791733ccEdd18",
+    "chainId": 1,
+    "assetAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "decimals": 6
+  },
+  {
+    "name": "swBTC",
+    "address": "0x8DB2350D78aBc13f5673A411D4700BCF87864dDE",
+    "chainId": 1,
+    "assetAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "decimals": 8
+  },
+  {
+    "name": "Trade WETH v3",
+    "address": "0xda0002859B2d05F66a753d8241fCDE8623f26F4f",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Gauntlet USDC Core",
+    "address": "0x8eB67A509616cd6A7c1B3c8C21D48FF57df3d458",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 18
+  },
+  {
+    "name": "Steakhouse USDC",
+    "address": "0xBEEF01735c132Ada46AA9aA4c54623cAA92A64CB",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 18
+  },
+  {
+    "name": "Turbo STETH",
+    "address": "0xfd6db5011b171B05E1Ea3b92f9EAcaEEb055e971",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Balancer rETH Stable Pool Aura Deposit Vault",
+    "address": "0xDd1fE5AD401D4777cE89959b7fa587e569Bf125D",
+    "chainId": 1,
+    "assetAddress": "0x1E19CF2D73a72Ef1332C882F20534B6519Be0276",
+    "decimals": 18
+  },
+  {
+    "name": "Real Yield ETH",
+    "address": "0xb5b29320d2Dde5BA5BAFA1EbcD270052070483ec",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Gains Network USDC",
+    "address": "0xd3443ee1e91aF28e5FB858Fbd0D72A63bA8046E0",
+    "chainId": 42161,
+    "assetAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "decimals": 6
+  },
+  {
+    "name": "Trade USDC v3",
+    "address": "0xda00000035fef4082F78dEF6A8903bee419FbF8E",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 6
+  },
+  {
+    "name": "Flagship ETH",
+    "address": "0x38989BBA00BDF8181F4082995b3DEAe96163aC5D",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Re7 WETH",
+    "address": "0x78Fc2c2eD1A4cDb5402365934aE5648aDAd094d0",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Fluid Wrapped liquid staked Ether 2.0",
+    "address": "0x2411802D8BEA09be0aF8fD8D08314a63e706b29C",
+    "chainId": 1,
+    "assetAddress": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "decimals": 18
+  },
+  {
+    "name": "Moonwell Flagship ETH",
+    "address": "0xa0E430870c4604CcfC7B38Ca7845B1FF653D0ff1",
+    "chainId": 8453,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "Moonwell Flagship USDC",
+    "address": "0xc1256Ae5FF1cf2719D4937adb3bbCCab2E00A2Ca",
+    "chainId": 8453,
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 18
+  },
+  {
+    "name": "Gains Network DAI",
+    "address": "0xd85E038593d7A098614721EaE955EC2022B9B91B",
+    "chainId": 42161,
+    "assetAddress": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "decimals": 18
+  },
+  {
+    "name": "Autocompounding Pirex Ether",
+    "address": "0x9Ba021B0a9b958B5E75cE9f6dff97C7eE52cb3E6",
+    "chainId": 1,
+    "assetAddress": "0x04C154b66CB340F3Ae24111CC767e0184Ed00Cc6",
+    "decimals": 18
+  },
+  {
+    "name": "Gauntlet USDC Prime",
+    "address": "0xdd0f28e19C1780eb6396170735D45153D261490d",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 18
+  },
+  {
+    "name": "Gauntlet WETH Prime",
+    "address": "0x2371e134e3455e0593363cBF89d3b6cf53740618",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Steakhouse PYUSD",
+    "address": "0xbEEF02e5E13584ab96848af90261f0C8Ee04722a",
+    "chainId": 1,
+    "assetAddress": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+    "decimals": 18
+  },
+  {
+    "name": "WMoo BIFI",
+    "address": "0x312CEf8839eDa74DeA9b1EEc10b345071cA3d6da",
+    "chainId": 1,
+    "assetAddress": "0xB1F1ee126e9c96231Cc3d3fAD7C08b4cf873b1f1",
+    "decimals": 18
+  },
+  {
+    "name": "Balancer ezETH-WETH Stable Pool Aura Deposit Vault",
+    "address": "0x95eC73Baa0eCF8159b4EE897D973E41f51978E50",
+    "chainId": 1,
+    "assetAddress": "0x596192bB6e41802428Ac943D2f1476C1Af25CC0E",
+    "decimals": 18
+  },
+  {
+    "name": "Gauntlet LRT Core",
+    "address": "0x4881Ef0BF6d2365D3dd6499ccd7532bcdBCE0658",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Staked USDA",
+    "address": "0x0022228a2cc5E7eF0274A7Baa600d44da5aB5776",
+    "chainId": 1,
+    "assetAddress": "0x0000206329b97DB379d5E1Bf586BbDB969C63274",
+    "decimals": 18
+  },
+  {
+    "name": "Real Yield BTC",
+    "address": "0x0274a704a6D9129F90A62dDC6f6024b33EcDad36",
+    "chainId": 1,
+    "assetAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "decimals": 18
+  },
+  {
+    "name": "Flagship USDT",
+    "address": "0x2C25f6C25770fFEC5959D34B94Bf898865e5D6b1",
+    "chainId": 1,
+    "assetAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "decimals": 18
+  },
+  {
+    "name": "Universal USDT v3",
+    "address": "0x05A811275fE9b4DE503B3311F51edF6A856D936e",
+    "chainId": 1,
+    "assetAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "decimals": 6
+  },
+  {
+    "name": "Gauntlet eUSD Core",
+    "address": "0xc080f56504e0278828A403269DB945F6c6D6E014",
+    "chainId": 1,
+    "assetAddress": "0xA0d69E286B938e21CBf7E51D71F6A4c8918f482F",
+    "decimals": 18
+  },
+  {
+    "name": "JUNIOR TRANCHE Tranche USD Coin",
+    "address": "0x944766f715b51967E56aFdE5f0Aa76cEaCc9E7f9",
+    "chainId": 8453,
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 6
+  },
+  {
+    "name": "Staked EURA",
+    "address": "0x004626A008B1aCdC4c74ab51644093b155e59A23",
+    "chainId": 1,
+    "assetAddress": "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8",
+    "decimals": 18
+  },
+  {
+    "name": "Wrapped USD+",
+    "address": "0xd95ca61CE9aAF2143E81Ef5462C0c2325172E028",
+    "chainId": 8453,
+    "assetAddress": "0xB79DD08EA68A908A97220C76d19A6aA9cBDE4376",
+    "decimals": 6
+  },
+  {
+    "name": "Gauntlet USDA Core",
+    "address": "0x125D41A6e5dbf455cD9Df8F80BCC6fd172D52Cc6",
+    "chainId": 1,
+    "assetAddress": "0x0000206329b97DB379d5E1Bf586BbDB969C63274",
+    "decimals": 18
+  },
+  {
+    "name": "SENIOR TRANCHE Tranche USD Coin",
+    "address": "0x83084cB182162473d6FEFfCd3Aa48BA55a7B66F7",
+    "chainId": 8453,
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 6
+  },
+  {
+    "name": "Staked USDz",
+    "address": "0x547213367cfB08ab418E7b54d7883b2C2AA27Fd7",
+    "chainId": 1,
+    "assetAddress": "0xA469B7Ee9ee773642b3e93E842e5D9b5BaA10067",
+    "decimals": 18
+  },
+  {
+    "name": "DAI v3",
+    "address": "0xe7146F53dBcae9D6Fa3555FE502648deb0B2F823",
+    "chainId": 1,
+    "assetAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "decimals": 18
+  },
+  {
+    "name": "Steakhouse USDT",
+    "address": "0xbEef047a543E45807105E51A8BBEFCc5950fcfBa",
+    "chainId": 1,
+    "assetAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "decimals": 18
+  },
+  {
+    "name": "Gauntlet USDT Prime",
+    "address": "0x8CB3649114051cA5119141a34C200D65dc0Faa73",
+    "chainId": 1,
+    "assetAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "decimals": 18
+  },
+  {
+    "name": "Main WETH v3",
+    "address": "0x04419d3509f13054f60d253E0c79491d9E683399",
+    "chainId": 42161,
+    "assetAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "decimals": 18
+  },
+  {
+    "name": "WMoo Compound Base USDC",
+    "address": "0xaFFAc8eacE1e12a657eaec784A2D462CbB926D91",
+    "chainId": 8453,
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 6
+  },
+  {
+    "name": "Redacted pxETH aggregator",
+    "address": "0xcFB23D05f32eA0BE0dBb5078d189Cca89688945E",
+    "chainId": 1,
+    "assetAddress": "0x04C154b66CB340F3Ae24111CC767e0184Ed00Cc6",
+    "decimals": 18
+  },
+  {
+    "name": "DAI-1 yVault",
+    "address": "0x028eC7330ff87667b6dfb0D94b954c820195336c",
+    "chainId": 1,
+    "assetAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "decimals": 18
+  },
+  {
+    "name": "Morpho eUSD",
+    "address": "0xbb819D845b573B5D7C538F5b85057160cfb5f313",
+    "chainId": 8453,
+    "assetAddress": "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4",
+    "decimals": 18
+  },
+  {
+    "name": "Main USDC v3",
+    "address": "0x890A69EF363C9c7BdD5E36eb95Ceb569F63ACbF6",
+    "chainId": 42161,
+    "assetAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "decimals": 6
+  },
+  {
+    "name": "Prime USD Coin",
+    "address": "0xaEeAfB1259f01f363d09D7027ad80a9d442de762",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 8
+  },
+  {
+    "name": "Sake-WATER",
+    "address": "0x806e8538FC05774Ea83d9428F778E423F6492475",
+    "chainId": 42161,
+    "assetAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "decimals": 6
+  },
+  {
+    "name": "GLP Vault Receipt Token",
+    "address": "0x17fF154A329E37282eb9a76C3ae848FC277F24C7",
+    "chainId": 42161,
+    "assetAddress": "0x5402B5F40310bDED796c7D0F3FF6683f5C0cFfdf",
+    "decimals": 18
+  },
+  {
+    "name": "Balancer weETH/ezETH/rswETH Aura Deposit Vault",
+    "address": "0xce98eb8b2Fb98049b3F2dB0A212Ba7ca3Efd63b0",
+    "chainId": 1,
+    "assetAddress": "0x848a5564158d84b8A8fb68ab5D004Fae11619A54",
+    "decimals": 18
+  },
+  {
+    "name": "Prime Ether",
+    "address": "0x4a9e282635567cC4D3C6a24E16C2335f10Dee9B8",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 8
+  },
+  {
+    "name": "exactly WETH",
+    "address": "0xc4d4500326981eacD020e20A81b1c479c161c7EF",
+    "chainId": 10,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "USDC-1 yVault",
+    "address": "0xBe53A109B494E5c9f97b9Cd39Fe969BE68BF6204",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 6
+  },
+  {
+    "name": "LeadBlock USDC RWA",
+    "address": "0x4cA0E178c94f039d7F202E09d8d1a655Ed3fb6b6",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 18
+  },
+  {
+    "name": "Prime ETH",
+    "address": "0xabc07BF91469C5450D6941dD0770E6E6761B90d6",
+    "chainId": 42161,
+    "assetAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "decimals": 8
+  },
+  {
+    "name": "Fluid Wrapped Ether",
+    "address": "0x90551c1795392094FE6D29B758EcCD233cFAa260",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "gmUSDC",
+    "address": "0x959f3807f0Aa7921E18c78B00B2819ba91E52FeF",
+    "chainId": 42161,
+    "assetAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "decimals": 6
+  },
+  {
+    "name": "FARM_USDC",
+    "address": "0xf0358e8c3CD5Fa238a29301d0bEa3D63A17bEdBE",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 6
+  },
+  {
+    "name": "Ethereum Triplets Aura Deposit Vault",
+    "address": "0xe350DFC963445F3B64a4229d019787491a58F8B9",
+    "chainId": 10,
+    "assetAddress": "0x5F8893506Ddc4C271837187d14A9C87964a074Dc",
+    "decimals": 18
+  },
+  {
+    "name": "Balancer wstETH-WETH Stable Pool Aura Deposit Vault",
+    "address": "0xa7BdaD177D474f946f3cDEB4bcea9d24Cf017471",
+    "chainId": 42161,
+    "assetAddress": "0x9791d590788598535278552EEcD4b211bFc790CB",
+    "decimals": 18
+  },
+  {
+    "name": "Prize USDC",
+    "address": "0x03D3CE84279cB6F54f5e6074ff0F8319d830dafe",
+    "chainId": 10,
+    "assetAddress": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+    "decimals": 6
+  },
+  {
+    "name": "Prime Wrapped BTC",
+    "address": "0x83706A2Ec580Fe1Fdb84744366FA02Fb8e25D29D",
+    "chainId": 1,
+    "assetAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "decimals": 8
+  },
+  {
+    "name": "Prime WBTC",
+    "address": "0xB9bFBB35C2eD588a42f9Fd1120929c607B463192",
+    "chainId": 42161,
+    "assetAddress": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+    "decimals": 8
+  },
+  {
+    "name": "yPT-weETH (auto-rolling Pendle PT)",
+    "address": "0x044E75fCbF7BD3f8f4577FF317554e9c0037F145",
+    "chainId": 42161,
+    "assetAddress": "0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe",
+    "decimals": 18
+  },
+  {
+    "name": "Trade WBTC v3",
+    "address": "0xda00010eDA646913F273E10E7A5d1F659242757d",
+    "chainId": 1,
+    "assetAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "decimals": 8
+  },
+  {
+    "name": "crvUSD v3",
+    "address": "0x8EF73f036fEEC873D0B2fd20892215Df5B8Bdd72",
+    "chainId": 1,
+    "assetAddress": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+    "decimals": 18
+  },
+  {
+    "name": "USDT yVault-A",
+    "address": "0xBb287E6017d3DEb0e2E65061e8684eab21060123",
+    "chainId": 137,
+    "assetAddress": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "decimals": 6
+  },
+  {
+    "name": "USDC-1 yVault",
+    "address": "0x34b9421Fe3d52191B64bC32ec1aB764dcBcDbF5e",
+    "chainId": 137,
+    "assetAddress": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+    "decimals": 6
+  },
+  {
+    "name": "Re7 USDT",
+    "address": "0x95EeF579155cd2C5510F312c8fA39208c3Be01a8",
+    "chainId": 1,
+    "assetAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "decimals": 18
+  },
+  {
+    "name": "USDC yVault-A",
+    "address": "0xA013Fbd4b711f9ded6fB09C1c0d358E2FbC2EAA0",
+    "chainId": 137,
+    "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "decimals": 6
+  },
+  {
+    "name": "yPT-rsETH (auto-rolling Pendle PT)",
+    "address": "0x1Dd930ADD968ff5913C3627dAA1e6e6FCC9dc544",
+    "chainId": 42161,
+    "assetAddress": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+    "decimals": 18
+  },
+  {
+    "name": "yPT-ezETH (auto-rolling Pendle PT)",
+    "address": "0x0F2ae7531A83982F15ff1D26B165E2bF3D7566da",
+    "chainId": 42161,
+    "assetAddress": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "decimals": 18
+  },
+  {
+    "name": "IdleCDO BB Tranche - idle_cpPOR-USDC4626Adapter",
+    "address": "0xA9F908DA2E3Ec7475a743e97Bb5B06081B688aE4",
+    "chainId": 1,
+    "assetAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "decimals": 18
+  },
+  {
+    "name": "yPT-USDe (auto-rolling Pendle PT)",
+    "address": "0x34a2b066AF16409648eF15d239E656edB8790ca0",
+    "chainId": 42161,
+    "assetAddress": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+    "decimals": 18
+  },
+  {
+    "name": "Gauntlet WBTC Core",
+    "address": "0x443df5eEE3196e9b2Dd77CaBd3eA76C3dee8f9b2",
+    "chainId": 1,
+    "assetAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "decimals": 18
+  },
+  {
+    "name": "Gauntlet WETH Core",
+    "address": "0x6b13c060F13Af1fdB319F52315BbbF3fb1D88844",
+    "chainId": 8453,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "WETH-2 yVault",
+    "address": "0xAc37729B76db6438CE62042AE1270ee574CA7571",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "exactly wstETH",
+    "address": "0x22ab31Cd55130435b5efBf9224b6a9d5EC36533F",
+    "chainId": 10,
+    "assetAddress": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
+    "decimals": 18
+  },
+  {
+    "name": "Wasabi WETH Vault",
+    "address": "0x630ED8220F9cbc98358a2E2eCb0727D7B9D61397",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "IdleCDO AA Tranche - idle_cpPOR-USDC4626Adapter",
+    "address": "0x79c4fE26f3b2809fD29Ec8588242036b8136f32D",
+    "chainId": 1,
+    "assetAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "decimals": 18
+  },
+  {
+    "name": "Yearn-Ajna DAI Vault",
+    "address": "0xe24BA27551aBE96Ca401D39761cA2319Ea14e3CB",
+    "chainId": 1,
+    "assetAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "decimals": 18
+  },
+  {
+    "name": "AaveV3 USDT Lender",
+    "address": "0x3bd8C987286D8Ad00c05fdb2Ae3E8C9a0f054734",
+    "chainId": 137,
+    "assetAddress": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "decimals": 6
+  },
+  {
+    "name": "WMoo Aura OP Ethereum Triplets",
+    "address": "0x8739deCb4b2cE73A005BB4eF456A7AB52751F000",
+    "chainId": 10,
+    "assetAddress": "0x5F8893506Ddc4C271837187d14A9C87964a074Dc",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_USDC",
+    "address": "0x2EC0160246461F0ce477887DdE2C931Ee8233de7",
+    "chainId": 42161,
+    "assetAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "decimals": 6
+  },
+  {
+    "name": "FARM_WETH",
+    "address": "0x2b70238022589f17E7b266BC753E74027D57009F",
+    "chainId": 42161,
+    "assetAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_USDT",
+    "address": "0x0D15225454474ab3cb124083278c7bE03f8a99Ff",
+    "chainId": 42161,
+    "assetAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "decimals": 6
+  },
+  {
+    "name": "Wrapped Aave Polygon GHST",
+    "address": "0x73958d46B7aA2bc94926d8a215Fa560A5CdCA3eA",
+    "chainId": 137,
+    "assetAddress": "0x8Eb270e296023E9D92081fdF967dDd7878724424",
+    "decimals": 18
+  },
+  {
+    "name": "Real Yield USD",
+    "address": "0x392B1E6905bb8449d26af701Cdea6Ff47bF6e5A8",
+    "chainId": 42161,
+    "assetAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "decimals": 6
+  },
+  {
+    "name": "Prime Tether USD",
+    "address": "0xD63aCe62b925361fc588734022718e919A8081AC",
+    "chainId": 42161,
+    "assetAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "decimals": 8
+  },
+  {
+    "name": "FARM_WBTC",
+    "address": "0x24174022D382CD155C33A847404cDA5Bc7978802",
+    "chainId": 42161,
+    "assetAddress": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+    "decimals": 8
+  },
+  {
+    "name": "AaveV3 DAI Lender",
+    "address": "0xf4F9d5697341B4C9B0Cc8151413e05A90f7dc24F",
+    "chainId": 137,
+    "assetAddress": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+    "decimals": 18
+  },
+  {
+    "name": "GHO v3",
+    "address": "0x4d56c9cBa373AD39dF69Eb18F076b7348000AE09",
+    "chainId": 1,
+    "assetAddress": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+    "decimals": 18
+  },
+  {
+    "name": "f(x) Protocol Morpho USDC",
+    "address": "0x4F460bb11cf958606C69A963B4A17f9DaEEea8b6",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_WETH",
+    "address": "0x0B0193fAD49DE45F5E2B0A9f5D6Bc3BB7D281688",
+    "chainId": 8453,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_ARB",
+    "address": "0x32DB5Cbac1C278696875eB9F27eD4cD7423dd126",
+    "chainId": 42161,
+    "assetAddress": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "decimals": 18
+  },
+  {
+    "name": "Steakhouse ETH",
+    "address": "0xbEEf050a7485865A7a8d8Ca0CC5f7536b7a3443e",
+    "chainId": 8453,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "Sandclock Yield USDC",
+    "address": "0x096697720056886b905D0DEB0f06AfFB8e4665E5",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 6
+  },
+  {
+    "name": "Aladdin rUSD",
+    "address": "0x07D1718fF05a8C53C8F05aDAEd57C0d672945f9a",
+    "chainId": 1,
+    "assetAddress": "0x65D72AA8DA931F047169112fcf34f52DbaAE7D18",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Arbitrum USDT",
+    "address": "0xb165a74407fE1e519d6bCbDeC1Ed3202B35a4140",
+    "chainId": 42161,
+    "assetAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "decimals": 6
+  },
+  {
+    "name": "Balancer ankrETH/wstETH StablePool Aura Deposit Vault",
+    "address": "0x0407E6D2b22Fa27D24ad052987Cb157c84acEa2A",
+    "chainId": 42161,
+    "assetAddress": "0x3FD4954a851eaD144c2FF72B1f5a38Ea5976Bd54",
+    "decimals": 18
+  },
+  {
+    "name": "Re7 WBTC",
+    "address": "0xE0C98605f279e4D7946d25B75869c69802823763",
+    "chainId": 1,
+    "assetAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "decimals": 18
+  },
+  {
+    "name": "DAI-2 yVault",
+    "address": "0x92545bCE636E6eE91D88D2D017182cD0bd2fC22e",
+    "chainId": 1,
+    "assetAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "decimals": 18
+  },
+  {
+    "name": "USDC-2 yVault",
+    "address": "0x9FA306b1F4a6a83FEC98d8eBbaBEDfF78C407f6B",
+    "chainId": 42161,
+    "assetAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "decimals": 6
+  },
+  {
+    "name": "Sturdy Aggregator - crvUSD",
+    "address": "0x73E4C11B670Ef9C025A030A20b72CB9150E54523",
+    "chainId": 1,
+    "assetAddress": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+    "decimals": 18
+  },
+  {
+    "name": "Prize WETH",
+    "address": "0x2998c1685E308661123F64B333767266035f5020",
+    "chainId": 10,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "Sandclock WETH Vault v2",
+    "address": "0x4c406C068106375724275Cbff028770C544a1333",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Wrapped Mountain Protocol USD",
+    "address": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812",
+    "chainId": 8453,
+    "assetAddress": "0x59D9356E565Ab3A36dD77763Fc0d87fEaf85508C",
+    "decimals": 18
+  },
+  {
+    "name": "WETH-1 yVault",
+    "address": "0xc56413869c6CDf96496f2b1eF801fEDBdFA7dDB0",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Pyth USDC",
+    "address": "0x0FaBfEAcedf47e890c50C8120177fff69C6a1d9B",
+    "chainId": 8453,
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 18
+  },
+  {
+    "name": "exactly USDC.e",
+    "address": "0x81C9A7B55A4df39A9B7B5F781ec0e53539694873",
+    "chainId": 10,
+    "assetAddress": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+    "decimals": 6
+  },
+  {
+    "name": "FARM_USDC",
+    "address": "0xBCC2B58Ab9a4F6bb576F80Def62ea2BC91fC49c2",
+    "chainId": 42161,
+    "assetAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "decimals": 6
+  },
+  {
+    "name": "Prize USDC - Moonwell",
+    "address": "0x7f5C2b379b88499aC2B997Db583f8079503f25b9",
+    "chainId": 8453,
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 6
+  },
+  {
+    "name": "Balancer 50GOLD/25WETH/25USDC Aura Deposit Vault",
+    "address": "0xEe374580BFf150be6b955954aC3b9899D890cB57",
+    "chainId": 8453,
+    "assetAddress": "0x433f09ca08623E48BAc7128B7105De678E37D988",
+    "decimals": 18
+  },
+  {
+    "name": "exactly WBTC",
+    "address": "0x6f748FD65d7c71949BA6641B3248C4C191F3b322",
+    "chainId": 10,
+    "assetAddress": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+    "decimals": 8
+  },
+  {
+    "name": "Prime wstETH",
+    "address": "0xbC323E3564Fb498E55CDc83a3Ea6bB1AF8402D6B",
+    "chainId": 42161,
+    "assetAddress": "0x5979D7b546E38E414F7E9822514be443A4800529",
+    "decimals": 8
+  },
+  {
+    "name": "Prime Rocket Pool ETH",
+    "address": "0x39A1f8e5D2422CCc5e08c5B4019Ab70147f5cC95",
+    "chainId": 1,
+    "assetAddress": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+    "decimals": 8
+  },
+  {
+    "name": "Re7 USDA",
+    "address": "0x89D80f5e9BC88d8021b352064ae73F0eAf79EBd8",
+    "chainId": 1,
+    "assetAddress": "0x0000206329b97DB379d5E1Bf586BbDB969C63274",
+    "decimals": 18
+  },
+  {
+    "name": "Steakhouse WBTC",
+    "address": "0xbeEf094333AEdD535c130958c204E84f681FD9FA",
+    "chainId": 1,
+    "assetAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_PENDLE",
+    "address": "0xc76387330F1614D7e10e045cfcc7C9f7Ff2AdC1F",
+    "chainId": 42161,
+    "assetAddress": "0x0c880f6761F1af8d9Aa9C466984b80DAb9a8c9e8",
+    "decimals": 18
+  },
+  {
+    "name": "Yearn-Ajna WETH Vault",
+    "address": "0x503e0BaB6acDAE73eA7fb7cf6Ae5792014dbe935",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Turbo DIVETH",
+    "address": "0x6c1edce139291Af5b84fB1e496c9747F83E876c9",
+    "chainId": 1,
+    "assetAddress": "0x1E19CF2D73a72Ef1332C882F20534B6519Be0276",
+    "decimals": 18
+  },
+  {
+    "name": "Prime FRAX",
+    "address": "0x1fd865a55eaf5333e6374Fb3Ad66D22e9885d3Aa",
+    "chainId": 42161,
+    "assetAddress": "0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F",
+    "decimals": 8
+  },
+  {
+    "name": "Pyth ETH",
+    "address": "0x80D9964fEb4A507dD697b4437Fc5b25b618CE446",
+    "chainId": 8453,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_USDC",
+    "address": "0x90613e167D42CA420942082157B42AF6fc6a8087",
+    "chainId": 8453,
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 6
+  },
+  {
+    "name": "FARM_WETH",
+    "address": "0xFE09e53A81Fe2808bc493ea64319109B5bAa573e",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Re7 USDC",
+    "address": "0x12AFDeFb2237a5963e7BAb3e2D46ad0eee70406e",
+    "chainId": 8453,
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 18
+  },
+  {
+    "name": "Re7 FRAX",
+    "address": "0xBE40491F3261Fd42724F1AEb465796eb11c06ddF",
+    "chainId": 1,
+    "assetAddress": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+    "decimals": 18
+  },
+  {
+    "name": "Flagship USDC",
+    "address": "0x186514400e52270cef3D80e1c6F8d10A75d47344",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_DAI",
+    "address": "0xab7FA2B2985BCcfC13c6D86b1D5A17486ab1e04C",
+    "chainId": 1,
+    "assetAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "decimals": 18
+  },
+  {
+    "name": "Prize DAI",
+    "address": "0x3e8DBe51DA479f7E8aC46307af99AD5B4B5b41Dc",
+    "chainId": 10,
+    "assetAddress": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "decimals": 18
+  },
+  {
+    "name": "WMoo Silo WETH (weETH Market)",
+    "address": "0xb5C6F5d1527F4147b25E046CD497b0D482B0b3Fa",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "FRAXIMAL",
+    "address": "0xDBe19d1c3F21b1bB250ca7BDaE0687A97B5f77e6",
+    "chainId": 1,
+    "assetAddress": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+    "decimals": 18
+  },
+  {
+    "name": "yPT-weETHs (auto-rolling Pendle PT)",
+    "address": "0xe5175a2EB7C40bC5f0E9DE4152caA14eab0fFCb7",
+    "chainId": 1,
+    "assetAddress": "0x917ceE801a67f933F2e6b33fC0cD1ED2d5909D88",
+    "decimals": 18
+  },
+  {
+    "name": "WMATIC yVault-A",
+    "address": "0x28F53bA70E5c8ce8D03b1FaD41E9dF11Bb646c36",
+    "chainId": 137,
+    "assetAddress": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe Arbitrum ⚭ [WETH]",
+    "address": "0x50E98841066eCa3b165F04C655F5Ef76C2b0CDf6",
+    "chainId": 42161,
+    "assetAddress": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "decimals": 18
+  },
+  {
+    "name": "exactly OP",
+    "address": "0xa430A427bd00210506589906a71B54d6C256CEdb",
+    "chainId": 10,
+    "assetAddress": "0x4200000000000000000000000000000000000042",
+    "decimals": 18
+  },
+  {
+    "name": "Prize LUSD",
+    "address": "0x1F16D3CCF568e96019cEdc8a2c79d2ca6257894E",
+    "chainId": 10,
+    "assetAddress": "0xc40F949F8a4e094D1b49a23ea9241D289B7b2819",
+    "decimals": 18
+  },
+  {
+    "name": "Staked Inception Opus No 1 Aura Deposit Vault",
+    "address": "0xf4bf6442F4466da14917947B89b0169cc33A024C",
+    "chainId": 10,
+    "assetAddress": "0xC9Eb4b8ce914EE451360B315ffD1D1AF8df96bE9",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe USD Coin (Arb1) ⚭ [WETH]",
+    "address": "0x48ce7AC1733D7Bd96bAE30c35BaE499097901BaD",
+    "chainId": 42161,
+    "assetAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "decimals": 6
+  },
+  {
+    "name": "Lido stETH LP (25 DEC 2025)",
+    "address": "0x564F7b5d8389F5C4c99E50fED5fC95070e697903",
+    "chainId": 1,
+    "assetAddress": "0xC374f7eC85F8C7DE3207a10bB1978bA104bdA3B2",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_wstETH",
+    "address": "0xEF39eF2069A9A65cD6476b6C9a6FB7dD2910f370",
+    "chainId": 42161,
+    "assetAddress": "0x5979D7b546E38E414F7E9822514be443A4800529",
+    "decimals": 18
+  },
+  {
+    "name": "Turbo RSETH",
+    "address": "0x1dffb366b5c5A37A12af2C127F31e8e0ED86BDbe",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "VaultCraft CompoundV3 USD Coin Compounder",
+    "address": "0xC4C7B3FEfECbd07B4174Bb7a49701d508A633733",
+    "chainId": 10,
+    "assetAddress": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+    "decimals": 6
+  },
+  {
+    "name": "FARM_USDT",
+    "address": "0x053c80eA73Dc6941F518a68E2FC52Ac45BDE7c9C",
+    "chainId": 1,
+    "assetAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "decimals": 6
+  },
+  {
+    "name": "Gauntlet DAI Core",
+    "address": "0x500331c9fF24D9d11aee6B07734Aa72343EA74a5",
+    "chainId": 1,
+    "assetAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "decimals": 18
+  },
+  {
+    "name": "Aave V3 WMATIC Lender",
+    "address": "0x12c3Ad898e8eB1C0ec0Bb74f9748F36C46593F68",
+    "chainId": 137,
+    "assetAddress": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+    "decimals": 18
+  },
+  {
+    "name": "Morpho MAI",
+    "address": "0x30B8A2c8E7Fa41e77b54b8FaF45c610e7aD909E3",
+    "chainId": 8453,
+    "assetAddress": "0xbf1aeA8670D2528E08334083616dD9C5F3B087aE",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_CMLT-LP",
+    "address": "0xc05374A286143BA88984AF1a103aceD8b587c96b",
+    "chainId": 42161,
+    "assetAddress": "0xD2A7084369cC93672b2CA868757a9f327e3677a4",
+    "decimals": 18
+  },
+  {
+    "name": "Prize POOL",
+    "address": "0x6B5a5c55E9dD4bb502Ce25bBfbaA49b69cf7E4dd",
+    "chainId": 8453,
+    "assetAddress": "0xd652C5425aea2Afd5fb142e120FeCf79e18fafc3",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_wstETH",
+    "address": "0x6C90F6cC42cC64d6fC110f02dE964089b6298dE7",
+    "chainId": 8453,
+    "assetAddress": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+    "decimals": 18
+  },
+  {
+    "name": "Popcorn USD Coin Vault",
+    "address": "0xD3A17928245064B6DF5095a76e277fe441D538a4",
+    "chainId": 42161,
+    "assetAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "decimals": 15
+  },
+  {
+    "name": "WETH yVault-A",
+    "address": "0x305F25377d0a39091e99B975558b1bdfC3975654",
+    "chainId": 137,
+    "assetAddress": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "decimals": 18
+  },
+  {
+    "name": "GHO aggregator",
+    "address": "0x93eBc3cA85F96aFD72edB914e833Fe18888DE179",
+    "chainId": 1,
+    "assetAddress": "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+    "decimals": 18
+  },
+  {
+    "name": "Kelp aggregator",
+    "address": "0xe2FdF0526629D85b719DCbC6EFE833b1B5b3Cb36",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "VaultCraft USD Coin Vault",
+    "address": "0x319121F8F39669599221A883Bb6d7d0Feef0E69c",
+    "chainId": 10,
+    "assetAddress": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85",
+    "decimals": 6
+  },
+  {
+    "name": "Morpho ETH Maximizer",
+    "address": "0xcf4B531b4Cde95BD35d71926e09B2b54c564F5b6",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Prime Dai Stablecoin",
+    "address": "0x54fA13A38a690bC69584A7aC8b834c1770959974",
+    "chainId": 1,
+    "assetAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "decimals": 8
+  },
+  {
+    "name": "Wrapped stUSR",
+    "address": "0x1202F5C7b4B9E47a1A484E8B270be34dbbC75055",
+    "chainId": 1,
+    "assetAddress": "0x66a1E37c9b0eAddca17d3662D6c05F4DECf3e110",
+    "decimals": 18
+  },
+  {
+    "name": "Main USDC.e v3",
+    "address": "0xa76c604145D7394DEc36C49Af494C144Ff327861",
+    "chainId": 42161,
+    "assetAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "decimals": 6
+  },
+  {
+    "name": "Steakhouse ETH",
+    "address": "0xBEEf050ecd6a16c4e7bfFbB52Ebba7846C4b8cD4",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Swell aggregator",
+    "address": "0xBd564BFE6F2366336ecD707862EDa79b97BCE383",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Fluid Wrapped liquid staked Ether 2.0",
+    "address": "0x66C25Cd75EBdAA7E04816F643d8E46cecd3183c9",
+    "chainId": 42161,
+    "assetAddress": "0x5979D7b546E38E414F7E9822514be443A4800529",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe Coinbase Wrapped Staked ETH ⚭ [WETH]",
+    "address": "0x552b74cf56145EA1228Ef484C89D324406622188",
+    "chainId": 8453,
+    "assetAddress": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    "decimals": 18
+  },
+  {
+    "name": "Popcorn Wrapped BTC Vault",
+    "address": "0xd11A312a7d9745C62dfc014D72E7Bb2403DABf72",
+    "chainId": 42161,
+    "assetAddress": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+    "decimals": 17
+  },
+  {
+    "name": "Aloe USD Base Coin ⚭ [WETH]",
+    "address": "0x6c2Ab0DeccC8ddE1575112f15d3Ca7e70aC3b357",
+    "chainId": 8453,
+    "assetAddress": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+    "decimals": 6
+  },
+  {
+    "name": "AaveV3 WETH Lender",
+    "address": "0xBEDA9A5300393e00229dc15cC54D5185E7646c56",
+    "chainId": 137,
+    "assetAddress": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "decimals": 18
+  },
+  {
+    "name": "Prime DAI",
+    "address": "0x0Ace2DC3995aCD739aE5e0599E71A5524b93b886",
+    "chainId": 42161,
+    "assetAddress": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "decimals": 8
+  },
+  {
+    "name": "Adapter PT rswETH",
+    "address": "0xe6cD0b7800cA3e297b8fBd7697Df9E9F6A27f0F5",
+    "chainId": 1,
+    "assetAddress": "0xFAe103DC9cf190eD75350761e95403b7b8aFa6c0",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_FRAX",
+    "address": "0xaEF3C262569e56FB494755110ca6F481f8A2e353",
+    "chainId": 42161,
+    "assetAddress": "0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F",
+    "decimals": 18
+  },
+  {
+    "name": "Wrapped OUSD",
+    "address": "0xD2af830E8CBdFed6CC11Bab697bB25496ed6FA62",
+    "chainId": 1,
+    "assetAddress": "0x2A8e1E676Ec238d8A992307B495b45B3fEAa5e86",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe Optimism ⚭ [WETH]",
+    "address": "0x26fE292Ddd6FDc00585ab9581ba14eb4Cc408116",
+    "chainId": 10,
+    "assetAddress": "0x4200000000000000000000000000000000000042",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_GMX",
+    "address": "0x76FE2516D16d93fd20b03873aD0413a7c0AC9773",
+    "chainId": 42161,
+    "assetAddress": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_DAI",
+    "address": "0xDfd2214236B60FC0485288c959CB07dA4f6A15F7",
+    "chainId": 42161,
+    "assetAddress": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_DAI",
+    "address": "0x6a149EBe60f157C64cA731c1D67C2b8c547bf872",
+    "chainId": 8453,
+    "assetAddress": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe Wrapped Ether ⚭ [USDbC]",
+    "address": "0x2EFEb9e351596551E279FF43A4ec28292BD1E909",
+    "chainId": 8453,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "Wrapped Senior ArcadiaV2 USD Coin",
+    "address": "0xbc10718571fcB3c3F67800e7C0887E450D2Ff398",
+    "chainId": 8453,
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 6
+  },
+  {
+    "name": "Wrapped Super OETH",
+    "address": "0x7FcD174E80f264448ebeE8c88a7C4476AAF58Ea6",
+    "chainId": 8453,
+    "assetAddress": "0xDBFeFD2e8460a6Ee4955A68582F85708BAEA60A3",
+    "decimals": 18
+  },
+  {
+    "name": "Wrapped Senior ArcadiaV2 Wrapped Ether",
+    "address": "0xD82BFa27D49e5a394ba371B293DaE65E9B7a8C60",
+    "chainId": 8453,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "Ion LRT Vault",
+    "address": "0x0000000000895f1D9e978788C6367d47127dd218",
+    "chainId": 8453,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 22
+  },
+  {
+    "name": "VaultCraft Tether USD Vault",
+    "address": "0x8aD58FA719FDf6dc5B324Db9eE22E561377Fda69",
+    "chainId": 42161,
+    "assetAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "decimals": 6
+  },
+  {
+    "name": "Static Aave Polygon USDT",
+    "address": "0x87A1fdc4C726c459f597282be639a045062c0E46",
+    "chainId": 137,
+    "assetAddress": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "decimals": 6
+  },
+  {
+    "name": "AAVEv3 Bread ETH",
+    "address": "0x37327c99bBc522e677a97d01021dB20227faF60A",
+    "chainId": 8453,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe Wrapped Ether ⚭ [USDC]",
+    "address": "0x0d40477976696AdDeb3F8AccA0E2E1Bb5367567a",
+    "chainId": 10,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "miFARM_2eur (PAR)",
+    "address": "0x41f36BB5B26F2E8646E6ADC97FAA5E2844a6c842",
+    "chainId": 137,
+    "assetAddress": "0x513CdEE00251F39DE280d9E5f771A6eaFebCc88E",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Arbitrum ARB",
+    "address": "0x9b5637d7952BC9fa2D693aAE51f3103760Bf2693",
+    "chainId": 42161,
+    "assetAddress": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_cbETH",
+    "address": "0x99946CEFb02249270373f7F2DC0bd9b085d52ae5",
+    "chainId": 8453,
+    "assetAddress": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    "decimals": 18
+  },
+  {
+    "name": "Morpho Degen",
+    "address": "0x8c3A6B12332a6354805Eb4b72ef619aEdd22BcdD",
+    "chainId": 8453,
+    "assetAddress": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
+    "decimals": 18
+  },
+  {
+    "name": "USDC-A yVault",
+    "address": "0x6FAF8b7fFeE3306EfcFc2BA9Fec912b4d49834C1",
+    "chainId": 42161,
+    "assetAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "decimals": 6
+  },
+  {
+    "name": "Aloe Optimism ⚭ [USDC]",
+    "address": "0xFc75778a68FB4Eee17AF2A19e6dd89A3f63010A4",
+    "chainId": 10,
+    "assetAddress": "0x4200000000000000000000000000000000000042",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe USD Coin ⚭ [USDT]",
+    "address": "0x5Fc46c0bE149e48efAB354c3eA96770306fD42aD",
+    "chainId": 10,
+    "assetAddress": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+    "decimals": 6
+  },
+  {
+    "name": "Aloe Wrapped Ether ⚭ [ARB]",
+    "address": "0x1A67bFFb168d4C0b28D94666D809b32adB303831",
+    "chainId": 42161,
+    "assetAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe USD Coin ⚭ [OP]",
+    "address": "0x462654Cc90C9124A406080EadaF0bA349eaA4AF9",
+    "chainId": 10,
+    "assetAddress": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+    "decimals": 6
+  },
+  {
+    "name": "Prize WETH - Aave",
+    "address": "0xf0B19f02c63d51B69563A2b675e0160e1C34397C",
+    "chainId": 10,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "Fluid Arbitrum",
+    "address": "0xbE3860FD4c3facDf8ad57Aa8c1A36D6dc4390a49",
+    "chainId": 42161,
+    "assetAddress": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "decimals": 18
+  },
+  {
+    "name": "Turbo ETHX",
+    "address": "0x19B8D8FC682fC56FbB42653F68c7d48Dd3fe597E",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe Wrapped Ether ⚭ [cbETH]",
+    "address": "0xBC5EcCf710A0830c4F0e566fDbbEF0Ef6313dF39",
+    "chainId": 8453,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe USD Coin (Arb1) ⚭ [ARB]",
+    "address": "0x12bE01eAb4EE10e02C68CDB6114A9ffB58a1e2C8",
+    "chainId": 42161,
+    "assetAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "decimals": 6
+  },
+  {
+    "name": "Prime Coinbase Wrapped Staked ETH",
+    "address": "0xA135D7f10545e3a45e24e79eCD4e4c3c78cF56Bf",
+    "chainId": 42161,
+    "assetAddress": "0x1DEBd73E752bEaF79865Fd6446b0c970EaE7732f",
+    "decimals": 8
+  },
+  {
+    "name": "ETH Trend Growth",
+    "address": "0x6c51041A91C91C86f3F08a72cB4D3F67f1208897",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 6
+  },
+  {
+    "name": "Static Aave Optimism OP",
+    "address": "0xd4F1Cf9A038269FE8F03745C2875591Ad6438ab1",
+    "chainId": 10,
+    "assetAddress": "0x4200000000000000000000000000000000000042",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_USDC",
+    "address": "0x346D81a5A7A6A8dA2F414d9EEbfFeC22F509245b",
+    "chainId": 137,
+    "assetAddress": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+    "decimals": 6
+  },
+  {
+    "name": "USDT-A yVault",
+    "address": "0xc0ba9bfED28aB46Da48d2B69316A3838698EF3f5",
+    "chainId": 42161,
+    "assetAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "decimals": 6
+  },
+  {
+    "name": "Popcorn Wrapped BTC Vault",
+    "address": "0x4e93CC7B2d4bE75B9c3cFBC6436DD4315c46c412",
+    "chainId": 10,
+    "assetAddress": "0x68f180fcCe6836688e9084f035309E29Bf0A2095",
+    "decimals": 17
+  },
+  {
+    "name": "Adapter PT rsETH",
+    "address": "0xE0229dCFa4D84998484a27Ba01B4c2e78B1F02D3",
+    "chainId": 42161,
+    "assetAddress": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+    "decimals": 18
+  },
+  {
+    "name": "Sturdy crvUSD/yean curve mkUSD-crvUSD LP silo",
+    "address": "0x200723063111f9f8f1d44c0F30afAdf0C0b1a04b",
+    "chainId": 1,
+    "assetAddress": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+    "decimals": 18
+  },
+  {
+    "name": "Sandclock LUSD Vault",
+    "address": "0xdb369eEB33fcfDCd1557E354dDeE7d6cF3146A11",
+    "chainId": 1,
+    "assetAddress": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_USDC",
+    "address": "0x60d2cEb7F8d323414a1B927Ee2D9A2A2A54A9824",
+    "chainId": 137,
+    "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "decimals": 6
+  },
+  {
+    "name": "Prize cbETH - Moonwell",
+    "address": "0x5b623C127254C6fec04b492ecDF4b11c45FBB9D5",
+    "chainId": 8453,
+    "assetAddress": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_LODE",
+    "address": "0x710A1AB6Cb8412DE9613ad6c7195453Ce8b5ca71",
+    "chainId": 42161,
+    "assetAddress": "0xF19547f9ED24aA66b03c3a552D181Ae334FBb8DB",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe Wrapped Ether ⚭ [OP]",
+    "address": "0xaBB11be14467118733AD2e7DE8ef48330E3a5E5E",
+    "chainId": 10,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "Prize AERO - Moonwell",
+    "address": "0x8d1322CaBe5Ef2949f6bf4941Cc7765187C1091A",
+    "chainId": 8453,
+    "assetAddress": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "decimals": 18
+  },
+  {
+    "name": "Adapter PT Renzo ezETH",
+    "address": "0x1099ac45b80059733F719C7Dedf5a8ffCf02aAa8",
+    "chainId": 42161,
+    "assetAddress": "0x2416092f143378750bb29b79eD961ab195CcEea5",
+    "decimals": 18
+  },
+  {
+    "name": "Wrapped aWMATIC",
+    "address": "0x0D6135b2cFBAE3b1c58368a93b855fa54FA5aae1",
+    "chainId": 137,
+    "assetAddress": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_MAGIC",
+    "address": "0x36e53BFC4A8c306B8297A4A79fB2aC5CbFa391FB",
+    "chainId": 42161,
+    "assetAddress": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_USDT",
+    "address": "0x0d930D467A4Fa78605106aaA570b1a1042aFca23",
+    "chainId": 137,
+    "assetAddress": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "decimals": 6
+  },
+  {
+    "name": "WMoo Silo WETH (PT-weETH Market)",
+    "address": "0x90EDA30b00206eD7021645F5DDBDc9e4009850F9",
+    "chainId": 42161,
+    "assetAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "decimals": 18
+  },
+  {
+    "name": "Adapter PT weETH",
+    "address": "0x10Efb86d59eB8Ae3d4a7966B4ab9Ceb97e96D212",
+    "chainId": 42161,
+    "assetAddress": "0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe",
+    "decimals": 18
+  },
+  {
+    "name": "IdleCDO BB Tranche - idle_cpFAS-USDT4626Adapter",
+    "address": "0x28bC4D9aD73A761049c773038c344F54D906B152",
+    "chainId": 1,
+    "assetAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe USD Coin ⚭ [DAI]",
+    "address": "0x7708386e23B0d00cE2a05aF4200d80948fEfb9bE",
+    "chainId": 10,
+    "assetAddress": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+    "decimals": 6
+  },
+  {
+    "name": "Popcorn Wrapped liquid staked Ether 2.0 Vault",
+    "address": "0xa48d49F63Dfc185cDD409B65f042955f509d9658",
+    "chainId": 1,
+    "assetAddress": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "decimals": 27
+  },
+  {
+    "name": "IdleCDO AA Tranche - idle_cpFAS-USDT4626Adapter",
+    "address": "0xcF96F4b91c6D424Fb34aA9A33855B5c8ed1Fe66d",
+    "chainId": 1,
+    "assetAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Ethereum CRV",
+    "address": "0x149EE12310D499F701B6A5714eDAd2C832008fd2",
+    "chainId": 1,
+    "assetAddress": "0xD533a949740bb3306d119CC777fa900bA034cd52",
+    "decimals": 18
+  },
+  {
+    "name": "Prize USDC - Aave",
+    "address": "0xA99eC0a1018bF964931c7DC421a5dE8bca0E32f1",
+    "chainId": 8453,
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 6
+  },
+  {
+    "name": "Aloe Wrapped Ether ⚭ [BALD]",
+    "address": "0x39618E7f712C28bBf49699F3f7357a356ad138Bf",
+    "chainId": 8453,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "yPT-rswETH-L2 (auto-rolling Pendle PT)",
+    "address": "0xdc0B53cC326B692a4D89e5F4CadC29a6B7265749",
+    "chainId": 1,
+    "assetAddress": "0xFAe103DC9cf190eD75350761e95403b7b8aFa6c0",
+    "decimals": 18
+  },
+  {
+    "name": "Sturdy ETH/ezETH silo",
+    "address": "0x5FAd91704F52b173A5d9Fb8Cf83822A1d9848892",
+    "chainId": 10,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "Prize wstETH - Moonwell",
+    "address": "0x75D700F4C21528A2bb603b6Ed899ACFdE5c4B086",
+    "chainId": 8453,
+    "assetAddress": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Optimism USDT",
+    "address": "0x035c93db04E5aAea54E6cd0261C492a3e0638b37",
+    "chainId": 10,
+    "assetAddress": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+    "decimals": 6
+  },
+  {
+    "name": "yPT-ENA (auto-rolling Pendle PT)",
+    "address": "0x2F2BBc50DB252eeADD2c9B9197beb6e5Aef87e48",
+    "chainId": 1,
+    "assetAddress": "0x57e114B691Db790C35207b2e685D4A43181e6061",
+    "decimals": 18
+  },
+  {
+    "name": "Adapter PT Ethena USDe",
+    "address": "0x02593d7Af1A77e3b2e3FDac9601a28169bF5C966",
+    "chainId": 1,
+    "assetAddress": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_USDC",
+    "address": "0x82FB3ec6a70774F4134f4cbfc41097396A461E35",
+    "chainId": 137,
+    "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "decimals": 6
+  },
+  {
+    "name": "Aloe Degen ⚭ [WETH]",
+    "address": "0xF4A5417A39cC4210b214E8487372BC02899C4B35",
+    "chainId": 8453,
+    "assetAddress": "0x4ed4E862860beD51a9570b96d89aF5E1B0Efefed",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_USDbC",
+    "address": "0xcf58a2fEc96fFDF11B0dFA1ed15433b488485cf3",
+    "chainId": 8453,
+    "assetAddress": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+    "decimals": 6
+  },
+  {
+    "name": "Static Aave Polygon USDC",
+    "address": "0x1017F4a86Fc3A3c824346d0b8C5e96A5029bDAf9",
+    "chainId": 137,
+    "assetAddress": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    "decimals": 6
+  },
+  {
+    "name": "Static Aave Base WETH",
+    "address": "0x468973e3264F2aEba0417A8f2cD0Ec397E738898",
+    "chainId": 8453,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe Arbitrum ⚭ [USDC]",
+    "address": "0xa38ebC1319B15BBDA92a3CD838f3D61F35554fe0",
+    "chainId": 42161,
+    "assetAddress": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Polygon WMATIC",
+    "address": "0x98254592408E389D1dd2dBa318656C2C5c305b4E",
+    "chainId": 137,
+    "assetAddress": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe Uniswap ⚭ [WETH]",
+    "address": "0xEC696a1E8A5B1d672C23b9C08D9007ac19636949",
+    "chainId": 42161,
+    "assetAddress": "0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_WETH",
+    "address": "0xc7548d8D7560f6679e369d0556C44Fe1EDdea3E9",
+    "chainId": 8453,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "Prize USDT - Aave",
+    "address": "0xCACBa8Be4bc225FB8d15a9A3b702f84ca3EBa991",
+    "chainId": 42161,
+    "assetAddress": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+    "decimals": 6
+  },
+  {
+    "name": "Popcorn Tether USD Vault",
+    "address": "0x5Df527eb4cE7dE09f8e966F9bbc9bc4Edbc7f458",
+    "chainId": 10,
+    "assetAddress": "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58",
+    "decimals": 15
+  },
+  {
+    "name": "Prize OP - Beefy Sonne",
+    "address": "0xF1d934D5A3c6E530ac1450c92Af5Ba01eb90d4dE",
+    "chainId": 10,
+    "assetAddress": "0x4200000000000000000000000000000000000042",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe Wrapped Ether ⚭ [WBTC]",
+    "address": "0x941c9ebcDb1aF0d35122965Ab9b5Db16aF089FD3",
+    "chainId": 42161,
+    "assetAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Base USDC",
+    "address": "0x4EA71A20e655794051D1eE8b6e4A3269B13ccaCc",
+    "chainId": 8453,
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 6
+  },
+  {
+    "name": "Prime Wrapped Liquid Staked Ether",
+    "address": "0xfbAdc4f18dDC7EBdBc920d3f9b0Ca7A1296788d1",
+    "chainId": 1,
+    "assetAddress": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "decimals": 8
+  },
+  {
+    "name": "FARM_EURS",
+    "address": "0x327ea1C5cA31Bc3afA2B5D9593Ab45A03D45c44b",
+    "chainId": 137,
+    "assetAddress": "0xE111178A87A3BFf0c8d18DECBa5798827539Ae99",
+    "decimals": 2
+  },
+  {
+    "name": "FARM_AERO",
+    "address": "0xc38380A706bfcD29874Bf7Bc436382017c90c255",
+    "chainId": 8453,
+    "assetAddress": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
+    "decimals": 18
+  },
+  {
+    "name": "WMoo Hop USDC",
+    "address": "0xcA5b76A9139F902CAc90dff97F1629318788b5E7",
+    "chainId": 42161,
+    "assetAddress": "0xB67c014FA700E69681a673876eb8BAFAA36BFf71",
+    "decimals": 18
+  },
+  {
+    "name": "Prize vAMM-WETH/WELL - Beefy",
+    "address": "0x6428DDB6EF1818FA99552E10882D34c1db57BBcA",
+    "chainId": 8453,
+    "assetAddress": "0x89D0F320ac73dd7d9513FFC5bc58D1161452a657",
+    "decimals": 18
+  },
+  {
+    "name": "Prize USDA - Angle stUSD",
+    "address": "0x8653084e01Bd8c9e24B9a8fEb2036251Ee0C16A9",
+    "chainId": 42161,
+    "assetAddress": "0x0000206329b97DB379d5E1Bf586BbDB969C63274",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe Bald ⚭ [WETH]",
+    "address": "0x713a20E47EE164e81e54646aE3e37EBc47536790",
+    "chainId": 8453,
+    "assetAddress": "0x27D2DECb4bFC9C76F0309b8E88dec3a601Fe25a8",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_USDC",
+    "address": "0xcEa7de485Cf3B69CF3D5f7DFadF9e1df31303988",
+    "chainId": 8453,
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 6
+  },
+  {
+    "name": "FARM_USDz",
+    "address": "0x72432B8f837f3ED4c50499F57775AC820243B838",
+    "chainId": 8453,
+    "assetAddress": "0x04D5ddf5f3a8939889F11E97f8c4BB48317F1938",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Arbitrum WETH",
+    "address": "0x352F3475716261dCC991Bd5F2aF973eB3D0F5878",
+    "chainId": 42161,
+    "assetAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "decimals": 18
+  },
+  {
+    "name": "yPT-rswETH (auto-rolling Pendle PT)",
+    "address": "0xf1ce36c9C0dB95A052Eb4b075BC334e1f5a21Ef0",
+    "chainId": 1,
+    "assetAddress": "0xFAe103DC9cf190eD75350761e95403b7b8aFa6c0",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_GHO",
+    "address": "0x85050BEdC80eA28e53dB5F80F165d87F29d2A1bC",
+    "chainId": 42161,
+    "assetAddress": "0x7dfF72693f6A4149b17e7C6314655f6A9F7c8B33",
+    "decimals": 18
+  },
+  {
+    "name": "VaultCraft Staked USDe Vault",
+    "address": "0x12c1701d28DB5C08586c58469Be1D3DA279d39c5",
+    "chainId": 1,
+    "assetAddress": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Optimism WETH",
+    "address": "0x98d69620C31869fD4822ceb6ADAB31180475FD37",
+    "chainId": 10,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "Aloe Wrapped BTC ⚭ [WETH]",
+    "address": "0xE9470Fdd239fd40AD200C15c49176Bfb02cdf6Ea",
+    "chainId": 42161,
+    "assetAddress": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+    "decimals": 8
+  },
+  {
+    "name": "Static Aave Ethereum UNI",
+    "address": "0x78fb5E79D5cb59729D0cd72bEA7879aD2683454D",
+    "chainId": 1,
+    "assetAddress": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+    "decimals": 18
+  },
+  {
+    "name": "Balancer WMATIC-MaticX",
+    "address": "0x0F1c2f70D1f3cf6bbf0c2e0e3125C333a74f514b",
+    "chainId": 137,
+    "assetAddress": "0xcd78A20c597E367A4e478a2411cEB790604D7c8F",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Ethereum sDAI",
+    "address": "0xFa7E3571786CE9489bBC58d9Cb8ecE8aAe6B56F3",
+    "chainId": 1,
+    "assetAddress": "0x83F20F44975D03b1b09e64809B757c47f942BEeA",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Optimism USDC",
+    "address": "0x9F281eb58fd98ad98EDe0fc4C553AD4D73e7Ca2C",
+    "chainId": 10,
+    "assetAddress": "0x7F5c764cBc14f9669B88837ca1490cCa17c31607",
+    "decimals": 6
+  },
+  {
+    "name": "Static Aave Arbitrum USDC",
+    "address": "0x0Bc9E52051f553E75550CA22C196bf132c52Cf0B",
+    "chainId": 42161,
+    "assetAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+    "decimals": 6
+  },
+  {
+    "name": "Static Aave Ethereum LDO",
+    "address": "0x1eA6E1ba21601258401d0B9DB24eA0a07948458e",
+    "chainId": 1,
+    "assetAddress": "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32",
+    "decimals": 18
+  },
+  {
+    "name": "Prize TBTC/WBTC - Beefy",
+    "address": "0xB4911EFd3d53352f658536aFD37e7897cB7dD7f6",
+    "chainId": 10,
+    "assetAddress": "0x1Dc5c0f8668a9F54ED922171d578011850ca0341",
+    "decimals": 18
+  },
+  {
+    "name": "yPT-aUSDC (auto-rolling Pendle PT)",
+    "address": "0x2B0B6376083c6E1F376C7439F328436A673F333c",
+    "chainId": 42161,
+    "assetAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+    "decimals": 6
+  },
+  {
+    "name": "FARM_USDbC",
+    "address": "0x0d024A57A0Ce216f93f6364901Bb8c5F9F33CC5f",
+    "chainId": 8453,
+    "assetAddress": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+    "decimals": 6
+  },
+  {
+    "name": "Popcorn USD Coin Vault",
+    "address": "0xc1D4a319dD7C44e332Bd54c724433C6067FeDd0D",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 15
+  },
+  {
+    "name": "Static Aave Optimism wstETH",
+    "address": "0xb972abef80046A57409e37a7DF5dEf2638917516",
+    "chainId": 10,
+    "assetAddress": "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb",
+    "decimals": 18
+  },
+  {
+    "name": "Prime Frax",
+    "address": "0x7Ef4d0168b12b168F14b67c708bc16f7E8BF3dEC",
+    "chainId": 1,
+    "assetAddress": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+    "decimals": 8
+  },
+  {
+    "name": "FARM_LUSD",
+    "address": "0x11577378ceE280199122680A75BD13E512Ddac03",
+    "chainId": 42161,
+    "assetAddress": "0x93b346b6BC2548dA6A1E7d98E9a421B42541425b",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_DOLA",
+    "address": "0x3F227C9D9d6489A6258f4a8286Ee93AA98d5A2c3",
+    "chainId": 8453,
+    "assetAddress": "0x4621b7A9c75199271F773Ebd9A499dbd165c3191",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Arbitrum wstETH",
+    "address": "0x7775d4Ae4Dbb79a624fB96AAcDB8Ca74F671c0DF",
+    "chainId": 42161,
+    "assetAddress": "0x5979D7b546E38E414F7E9822514be443A4800529",
+    "decimals": 18
+  },
+  {
+    "name": "Adapter PT Ethena sUSDE",
+    "address": "0x87506fad05178F701e6E3bC9697c5AB264f5ffE6",
+    "chainId": 1,
+    "assetAddress": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+    "decimals": 18
+  },
+  {
+    "name": "Popcorn (PoS) Tether USD-LP Vault",
+    "address": "0xDFd505B54E15D5B20842e868E4c19D7b6F0a4a5d",
+    "chainId": 137,
+    "assetAddress": "0x29e38769f23701A2e4A8Ef0492e19dA4604Be62c",
+    "decimals": 15
+  },
+  {
+    "name": "Static Aave Base cbETH",
+    "address": "0x16A004065dfb11276DcB29Dc03fb8A85f9A43C6e",
+    "chainId": 8453,
+    "assetAddress": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Optimism DAI",
+    "address": "0x6dDc64289bE8a71A707fB057d5d07Cc756055d6e",
+    "chainId": 10,
+    "assetAddress": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_KLIMA",
+    "address": "0xbe36B2367b081CDB3e657CeD2045729e5d8f89c4",
+    "chainId": 8453,
+    "assetAddress": "0xDCEFd8C8fCc492630B943ABcaB3429F12Ea9Fea2",
+    "decimals": 9
+  },
+  {
+    "name": "Static Aave Ethereum USDT",
+    "address": "0x862c57d48becB45583AEbA3f489696D22466Ca1b",
+    "chainId": 1,
+    "assetAddress": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+    "decimals": 6
+  },
+  {
+    "name": "Aloe Wrapped Ether ⚭ [mooBIFI]",
+    "address": "0xe8c2c9C7f9c14f0183350939A4D697c25fA68014",
+    "chainId": 10,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Ethereum WETH",
+    "address": "0x252231882FB38481497f3C767469106297c8d93b",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Adapter PT Kelp rsETH",
+    "address": "0x9A7b4dDA01F1580CD8e4E4849A3532C34a4C4081",
+    "chainId": 1,
+    "assetAddress": "0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_DAI",
+    "address": "0x9E5e86b898628aD0ef2a1f51B66a4BC4c10c6932",
+    "chainId": 42161,
+    "assetAddress": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Base weETH",
+    "address": "0x588159E0d360ffAA978330812f9234818ab46E8E",
+    "chainId": 8453,
+    "assetAddress": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_FRAX",
+    "address": "0xA46aEC29b8b97b53e68C9e134C356025CCCF00dA",
+    "chainId": 42161,
+    "assetAddress": "0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Ethereum WBTC",
+    "address": "0xB07E357cc262E92eee03D8B81464D596B258eA7a",
+    "chainId": 1,
+    "assetAddress": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+    "decimals": 8
+  },
+  {
+    "name": "Static Aave Base wstETH",
+    "address": "0x03916e49f794Ab877eFA23597627eE8094E6cbB0",
+    "chainId": 8453,
+    "assetAddress": "0xc1CBa3fCea344f92D9239c08C0568f6F2F0ee452",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Ethereum PYUSD",
+    "address": "0x00F2a835758B33f3aC53516Ebd69f3dc77B0D152",
+    "chainId": 1,
+    "assetAddress": "0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+    "decimals": 6
+  },
+  {
+    "name": "FARM_OVN",
+    "address": "0x6a66697BB83b1660F58b618F85f37E413053D3A1",
+    "chainId": 8453,
+    "assetAddress": "0xA3d1a8DEB97B111454B294E2324EfAD13a9d8396",
+    "decimals": 18
+  },
+  {
+    "name": "Fluid Interest Wrapped Matic",
+    "address": "0x7008bb8F3B709996c3f2e6589C0B32110bb525d8",
+    "chainId": 137,
+    "assetAddress": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Base USDbC",
+    "address": "0x6fCe2756794128B1771324caA860965801DCbCdB",
+    "chainId": 8453,
+    "assetAddress": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
+    "decimals": 6
+  },
+  {
+    "name": "Static Aave Ethereum rETH",
+    "address": "0x867Cf025B5dA438c4e215c60B59bBB3aFe896Fda",
+    "chainId": 1,
+    "assetAddress": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Ethereum wstETH",
+    "address": "0x322AA5F5Be95644d6c36544B6c5061F072D16DF5",
+    "chainId": 1,
+    "assetAddress": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Ethereum USDC",
+    "address": "0x73edDFa87C71ADdC275c2b9890f5c3a8480bC9E6",
+    "chainId": 1,
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+    "decimals": 6
+  },
+  {
+    "name": "Static Aave Ethereum DAI",
+    "address": "0xaf270C38fF895EA3f95Ed488CEACe2386F038249",
+    "chainId": 1,
+    "assetAddress": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_USD+",
+    "address": "0xb2F050FB276ECFCb77c9CA1ce92D8914750A41Fb",
+    "chainId": 8453,
+    "assetAddress": "0xB79DD08EA68A908A97220C76d19A6aA9cBDE4376",
+    "decimals": 6
+  },
+  {
+    "name": "Static Aave Ethereum LUSD",
+    "address": "0xDBf5E36569798D1E39eE9d7B1c61A7409a74F23A",
+    "chainId": 1,
+    "assetAddress": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Polygon DAI",
+    "address": "0x83c59636e602787A6EEbBdA2915217B416193FcB",
+    "chainId": 137,
+    "assetAddress": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Polygon WETH",
+    "address": "0xb3D5Af0A52a35692D3FcbE37669b3B8C31dddE7D",
+    "chainId": 137,
+    "assetAddress": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Arbitrum DAI",
+    "address": "0xc91c5297d7E161aCC74b482aAfCc75B85cc0bfeD",
+    "chainId": 42161,
+    "assetAddress": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+    "decimals": 18
+  },
+  {
+    "name": "yPT-uniETH (auto-rolling Pendle PT)",
+    "address": "0x00CB87656196dD835b9E4d67018aE0477a1De8C1",
+    "chainId": 1,
+    "assetAddress": "0xF1376bceF0f78459C0Ed0ba5ddce976F1ddF51F4",
+    "decimals": 18
+  },
+  {
+    "name": "yPT-wstETH (auto-rolling Pendle PT)",
+    "address": "0x08e3D13d50310aFbeA2da20A3DBD92aAcFc503Ac",
+    "chainId": 42161,
+    "assetAddress": "0x5979D7b546E38E414F7E9822514be443A4800529",
+    "decimals": 18
+  },
+  {
+    "name": "3Crv Convex BUSD Vault",
+    "address": "0x87Ed92648fAE3b3930577c92c8A247b127ED8949",
+    "chainId": 1,
+    "assetAddress": "0x6c3F90f043a72FA612cbac8115EE7e52BDe6E490",
+    "decimals": 18
+  },
+  {
+    "name": "vaultoken",
+    "address": "0xd667801165b6062E6BBD8E3Fc9c9BFEf59C42da2",
+    "chainId": 137,
+    "assetAddress": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+    "decimals": 18
+  },
+  {
+    "name": "Mc Vault",
+    "address": "0xAaEb3f892e2a1CE93C440FB5a03156190E172E15",
+    "chainId": 8453,
+    "assetAddress": "0x4200000000000000000000000000000000000006",
+    "decimals": 18
+  },
+  {
+    "name": "TUP Vault with wBTC Strategy",
+    "address": "0xd10E7B4bB4b00a93ecCFc0d274BDBa401F74888d",
+    "chainId": 137,
+    "assetAddress": "0x57685Ddbc1498f7873963CEE5C186C7D95D91688",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_xGRAIL",
+    "address": "0xFA10759780304c2B8d34B051C039899dFBbcad7f",
+    "chainId": 42161,
+    "assetAddress": "0x3CAaE25Ee616f2C8E13C74dA0813402eae3F496b",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_WELL",
+    "address": "0x97c07792833b0DE228a2C33466729ED1D588B5F2",
+    "chainId": 8453,
+    "assetAddress": "0xA88594D404727625A9437C3f886C7643872296AE",
+    "decimals": 18
+  },
+  {
+    "name": "yearn-V3-Gamma-USDC.e-WETH",
+    "address": "0x54303F18161d9870b0fc66B88B0B129e8e5fF505",
+    "chainId": 137,
+    "assetAddress": "0x3Cc20A6795c4b57d9817399F68E83e71C8626580",
+    "decimals": 18
+  },
+  {
+    "name": "Prize vAMMV2-WETH/tBTC - Beefy",
+    "address": "0xE2778B7c04a44dC8480FeE88edc3cEF8ee11Fce0",
+    "chainId": 10,
+    "assetAddress": "0xadBB23Bcc3C1B9810491897cb0690Cf645B858b1",
+    "decimals": 18
+  },
+  {
+    "name": "yPT-pzETH (auto-rolling Pendle PT)",
+    "address": "0xD789d846c1Eed55161dbD135D7bF02450a836ffa",
+    "chainId": 1,
+    "assetAddress": "0x8c9532a60E0E7C6BbD2B2c1303F63aCE1c3E9811",
+    "decimals": 18
+  },
+  {
+    "name": "yPT-USDe-Karak (auto-rolling Pendle PT)",
+    "address": "0xec48E0b9579062770888AaF900d054A1bC10A3Bf",
+    "chainId": 1,
+    "assetAddress": "0xBE3cA34D0E877A1Fc889BD5231D65477779AFf4e",
+    "decimals": 18
+  },
+  {
+    "name": "Worker Vault",
+    "address": "0xe2229632028f79FFA90052F892363edFb69F9583",
+    "chainId": 137,
+    "assetAddress": "0x57685Ddbc1498f7873963CEE5C186C7D95D91688",
+    "decimals": 18
+  },
+  {
+    "name": "Adapter PT Karak sUSDe",
+    "address": "0x61F6A5687983D4a61283c65006c36DCdEC67853D",
+    "chainId": 1,
+    "assetAddress": "0xDe5Bff0755F192C333B126A449FF944Ee2B69681",
+    "decimals": 18
+  },
+  {
+    "name": "Prize vAMMV2-USDC/OP - Beefy",
+    "address": "0x7889366a039d92dd6Aa12cE8f6FB027c3b7e397C",
+    "chainId": 10,
+    "assetAddress": "0x67F56Ac099F11aD5F65E2ec804f75F2cEa6ab8C5",
+    "decimals": 18
+  },
+  {
+    "name": "Prize WSTETH-ETH Beefy",
+    "address": "0x9b4C0de59628c64b02D7ce86f21db9A579539d5A",
+    "chainId": 10,
+    "assetAddress": "0x6dA98Bde0068d10DDD11b468b197eA97D96F96Bc",
+    "decimals": 18
+  },
+  {
+    "name": "Adapter PT Karak WEETH",
+    "address": "0x2a35f99CC322626e48AC80aB3aF4C5DE2A910ef4",
+    "chainId": 1,
+    "assetAddress": "0x2DABcea55a12d73191AeCe59F508b191Fb68AdaC",
+    "decimals": 18
+  },
+  {
+    "name": "yPT-eETH-Karak (auto-rolling Pendle PT)",
+    "address": "0x2478d5997324e8B47e9Ff870166DBa8d2e461993",
+    "chainId": 1,
+    "assetAddress": "0x2DABcea55a12d73191AeCe59F508b191Fb68AdaC",
+    "decimals": 18
+  },
+  {
+    "name": "GammaSwap V1",
+    "address": "0x63c531FFeD7E17F8aDcA4eD490837838F6Fa1b66",
+    "chainId": 42161,
+    "assetAddress": "0x755F72D7F22eFaeD6E00E589a8C7bD95A666fEF0",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_rETH",
+    "address": "0x3ef3a16367A82436cE64b25907db3dC58664A727",
+    "chainId": 8453,
+    "assetAddress": "0xB6fe221Fe9EeF5aBa221c348bA20A1Bf5e73624c",
+    "decimals": 18
+  },
+  {
+    "name": "Steakhouse EURA",
+    "address": "0xBEeFA28D5e56d41D35df760AB53B94D9FfD7051F",
+    "chainId": 8453,
+    "assetAddress": "0xA61BeB4A3d02decb01039e378237032B351125B4",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_CVR",
+    "address": "0xCB2f2895208c36F38c9B13aB0C9e49Ad69B14e9d",
+    "chainId": 137,
+    "assetAddress": "0x6AE96Cc93331c19148541D4D2f31363684917092",
+    "decimals": 18
+  },
+  {
+    "name": "Steakhouse USDM",
+    "address": "0xBEef03f0BF3cb2e348393008a826538AaDD7d183",
+    "chainId": 8453,
+    "assetAddress": "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812",
+    "decimals": 18
+  },
+  {
+    "name": "Steakhouse USDA",
+    "address": "0xbEEfa1aBfEbE621DF50ceaEF9f54FdB73648c92C",
+    "chainId": 8453,
+    "assetAddress": "0x0000206329b97DB379d5E1Bf586BbDB969C63274",
+    "decimals": 18
+  },
+  {
+    "name": "Prize POOL/WETH Beefy",
+    "address": "0x9B53eF6F13077727D22Cb4ACAD1119c79a97BE17",
+    "chainId": 10,
+    "assetAddress": "0xDB1FE6DA83698885104DA02A6e0b3b65c0B0dE80",
+    "decimals": 18
+  },
+  {
+    "name": "Prize vAMMV2-WETH/mooBIFI - Beefy",
+    "address": "0x5eb32e6dEc24d58C14D21fd1b329d9f65DE58364",
+    "chainId": 10,
+    "assetAddress": "0x6Ed6Df1C23C51cb7Cc67a348cC8d9E6108EA3BFE",
+    "decimals": 18
+  },
+  {
+    "name": "Wrapped YearnV3 Strategy Cove Rewards Gauge",
+    "address": "0x7c37d1Ca716c4519BEcc9bC0CEea065C88caF98B",
+    "chainId": 1,
+    "assetAddress": "0x64DC55D76d1541E0853cbd7cF6586615e9E6f4C7",
+    "decimals": 18
+  },
+  {
+    "name": "yvAjnaUSDC-compounder",
+    "address": "0x4987d1856F93DFf29e08aa605A805FaF43dC3103",
+    "chainId": 137,
+    "assetAddress": "0xF54a15F6da443041Bb075959EA66EE47655DDFcA",
+    "decimals": 6
+  },
+  {
+    "name": "Turbo EETH",
+    "address": "0xdAdC82e26b3739750E036dFd9dEfd3eD459b877A",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Ethereum cbETH",
+    "address": "0xe2a6863C8f043457B497667Ef3c43073e2D69089",
+    "chainId": 1,
+    "assetAddress": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+    "decimals": 18
+  },
+  {
+    "name": "Wrapped YearnV3 Strategy Cove Rewards Gauge",
+    "address": "0xED08B03bAeAB9EEF24F8AAa7c752f34a3264992e",
+    "chainId": 1,
+    "assetAddress": "0x81D40243c649f7d6092295F50F4B1D3A8e53DA99",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Ethereum FRAX",
+    "address": "0xEE66abD4D0f9908A48E08AE354B0f425De3e237E",
+    "chainId": 1,
+    "assetAddress": "0x853d955aCEf822Db058eb8505911ED77F175b99e",
+    "decimals": 18
+  },
+  {
+    "name": "ERC4626-Wrapped wrETH",
+    "address": "0x7322c24752f79c05FFD1E2a6FCB97020C1C264F1",
+    "chainId": 10,
+    "assetAddress": "0x7EcCBbd05830EdF593d30005B8F69E965AF4D59f",
+    "decimals": 23
+  },
+  {
+    "name": "Static Aave Ethereum AAVE",
+    "address": "0xFEB859A50f92C6D5ad7C9eF7C2c060D164B3280f",
+    "chainId": 1,
+    "assetAddress": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_USDC",
+    "address": "0x9C35DC4A5dE5F399244b858e84465e23F9751d96",
+    "chainId": 42161,
+    "assetAddress": "0x2bb55dC7c125D132322d6f7056FF6a575D64Fb7C",
+    "decimals": 6
+  },
+  {
+    "name": "Static Aave Ethereum sUSDe",
+    "address": "0x54D612b000697bd8B0094889D7d6A92bA0Bf2DEa",
+    "chainId": 1,
+    "assetAddress": "0x9D39A5DE30e57443BfF2A8307A4256c8797A3497",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_USDT_rUSDT",
+    "address": "0xa1D4e9bDA2fC90EBFBa2372F4C4BA5ce4F8e8A46",
+    "chainId": 42161,
+    "assetAddress": "0x399F292939668E591957726df3eC9A0E7dc8Ac57",
+    "decimals": 6
+  },
+  {
+    "name": "FARM_ARB_rARB",
+    "address": "0xABa0cB835f40E7Af29F8016a1DB401e704f855bE",
+    "chainId": 42161,
+    "assetAddress": "0xf6da879761961ABD22177242904a6E12BB034C22",
+    "decimals": 18
+  },
+  {
+    "name": "Wrapped YearnV3 Strategy Cove Rewards Gauge",
+    "address": "0xf4e7Ff66Fd3d1c33B3020fFA575C33Cb2968082D",
+    "chainId": 1,
+    "assetAddress": "0x6568921f9059B6b8a3902651783A7A0E74Ca83fF",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Ethereum 1INCH",
+    "address": "0xB490fF18e55b8881C9527FE7E358dd363780449F",
+    "chainId": 1,
+    "assetAddress": "0x111111111117dC0aa78b770fA6A738034120C302",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Ethereum ENS",
+    "address": "0x2767C27Eeaf3566082E74b963B6A0f5c9a46C8a1",
+    "chainId": 1,
+    "assetAddress": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
+    "decimals": 18
+  },
+  {
+    "name": "EVK Vault eWETH-2",
+    "address": "0x4FE372af73DB7C9DDC6f36DEc5cc87AEf09F9cAd",
+    "chainId": 42161,
+    "assetAddress": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Ethereum USDe",
+    "address": "0x46e5d6A33C8Bd8eD38F3c95991C78C9B2FF3bC99",
+    "chainId": 1,
+    "assetAddress": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_WETH_rWETH",
+    "address": "0xE5cfD03f32F2ebA7e5841f50544265beA368EE17",
+    "chainId": 42161,
+    "assetAddress": "0x5477B2E46DD6D2D8E52f8329f0DC283F6f768cFa",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Ethereum osETH",
+    "address": "0xE5248968166206d14ab57345971E32facD839aDA",
+    "chainId": 1,
+    "assetAddress": "0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_nUSDT",
+    "address": "0x81C000AA22677b24a4Ce0Fb51289bB622366bE66",
+    "chainId": 1,
+    "assetAddress": "0x0Da210F60A179Ee3364123943930dAdbAb8B210e",
+    "decimals": 8
+  },
+  {
+    "name": "Wrapped YearnV3 Strategy Cove Rewards Gauge",
+    "address": "0x45380B6249a1005bec67928AF03b8aA8ec4eadCC",
+    "chainId": 1,
+    "assetAddress": "0x9Cb8c5136aD079d3311F5b766D6fC370bF29E76b",
+    "decimals": 18
+  },
+  {
+    "name": "Wrapped YearnV3 Strategy Cove Rewards Gauge",
+    "address": "0x90B28aa7Df2eFaaAD4582afaF4D2a1c61519A245",
+    "chainId": 1,
+    "assetAddress": "0x28b2DC219c047B10F353caA2934ad8803e089A88",
+    "decimals": 18
+  },
+  {
+    "name": "BESTUSDC Yield Vault",
+    "address": "0xD54189CC311DD17D45050BDbca65c31B474B01A3",
+    "chainId": 8453,
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 6
+  },
+  {
+    "name": "Wrapped YearnV3 Strategy Cove Rewards Gauge",
+    "address": "0x66Afc16E2FaCf4EeA0712EDEBE0B96C5f51606Fa",
+    "chainId": 1,
+    "assetAddress": "0x87588D3fBCdff1bF84555F0A22056d94534A74A6",
+    "decimals": 18
+  },
+  {
+    "name": "TEST_VAULT",
+    "address": "0xCC2dD835a3b6C1eF78F8AAbbD4b40AeeDdf48B98",
+    "chainId": 137,
+    "assetAddress": "0x40379a439D4F6795B6fc9aa5687dB461677A2dBa",
+    "decimals": 9
+  },
+  {
+    "name": "Static Aave Ethereum SNX",
+    "address": "0xaECEbdfE454d869A626cAb38226C52a1575D1866",
+    "chainId": 1,
+    "assetAddress": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_WBTC_rWBTC",
+    "address": "0x3646B87C7DD1c87fe6663FFCAD167b8E5175F001",
+    "chainId": 42161,
+    "assetAddress": "0x6c1B07ed05656DEdd90321E94B1cDB26981e65f2",
+    "decimals": 8
+  },
+  {
+    "name": "FARM_wstETH_rWstETH",
+    "address": "0xBdE9Dbd8b1a1C52eC7f880a5172470da2e2aA04D",
+    "chainId": 42161,
+    "assetAddress": "0x79a2e71460c97807EC40D6d670838bEe99848F1d",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_nUSDC",
+    "address": "0xF92BeDd0F656ccEA90BC1fFef9515DF84669A100",
+    "chainId": 1,
+    "assetAddress": "0x2920F9Fc667E780C0CB5a78a104d21413377f97E",
+    "decimals": 8
+  },
+  {
+    "name": "VaultCraft USDe Vault",
+    "address": "0x877FF2b4517A323954D794F1AF4C3Bb7a64AF93b",
+    "chainId": 1,
+    "assetAddress": "0x4c9EDD5852cd905f086C759E8383e09bff1E68B3",
+    "decimals": 18
+  },
+  {
+    "name": "Wrapped YearnV3 Strategy Cove Rewards Gauge",
+    "address": "0x093f4FCA4b71912EDb33B2d4Bb92E5b85658D833",
+    "chainId": 1,
+    "assetAddress": "0x18f365ECCe58fA865Ec9FB027E9175125DB93B91",
+    "decimals": 18
+  },
+  {
+    "name": "Wrapped ETH+",
+    "address": "0x72f99511615Cd8fA4D776d76bb8B8f7A5162F60F",
+    "chainId": 42161,
+    "assetAddress": "0xD4939D69B31fbE981ed6904A3aF43Ee1dc777Aab",
+    "decimals": 18
+  },
+  {
+    "name": "Static Aave Ethereum RPL",
+    "address": "0x95EF7cb3494e65dA4926bA330dBf540a13afFD17",
+    "chainId": 1,
+    "assetAddress": "0xD33526068D116cE69F19A9ee46F0bd304F21A51f",
+    "decimals": 18
+  },
+  {
+    "name": "Prize vAMMV2-USDC/SNX - Beefy",
+    "address": "0xB4063d1f0b0B7CaeE88708895EC4e365bF44b984",
+    "chainId": 10,
+    "assetAddress": "0x894d6Ea97767EbeCEfE01c9410f6Bd67935AA952",
+    "decimals": 18
+  },
+  {
+    "name": "Wrapped YearnV3 Strategy Cove Rewards Gauge",
+    "address": "0xb5907b7913F4dc10C5c0fc75c570c7D78D16768F",
+    "chainId": 1,
+    "assetAddress": "0x120B128cF1a5117Fe8E9E12b79B3437e7396bd14",
+    "decimals": 18
+  },
+  {
+    "name": "Wrapped YearnV3 Strategy Cove Rewards Gauge",
+    "address": "0x4E69d3b01a5693DBff8dC0AD340eBF816b38D162",
+    "chainId": 1,
+    "assetAddress": "0x29eE8c3FB7ea0b52261B18782F1a060C2e210aFa",
+    "decimals": 18
+  },
+  {
+    "name": "Vault Token",
+    "address": "0xa80dfD68cE7806d5d4B78E32C279645Efed29613",
+    "chainId": 8453,
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "decimals": 6
+  },
+  {
+    "name": "Static Aave Ethereum crvUSD",
+    "address": "0x848107491E029AFDe0AC543779c7790382f15929",
+    "chainId": 1,
+    "assetAddress": "0xf939E0A03FB07F59A73314E73794Be0E57ac1b4E",
+    "decimals": 18
+  },
+  {
+    "name": "CIAN yield layer stETH",
+    "address": "0xB13aa2d0345b0439b064f26B82D8dCf3f508775d",
+    "chainId": 1,
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "decimals": 18
+  },
+  {
+    "name": "Wrapped YearnV3 Strategy Cove Rewards Gauge",
+    "address": "0x2BCc065433c608B2e71eA80405E260cA9B40ff65",
+    "chainId": 1,
+    "assetAddress": "0xfe08Fc631BE2DA2B47aa6adBA275ADAB2197C0cd",
+    "decimals": 18
+  },
+  {
+    "name": "FARM_nGHO",
+    "address": "0xA68bb2a94C5E9A081Af9A89aE988b5971183632a",
+    "chainId": 1,
+    "assetAddress": "0x2F7350Cb5e434C2d177922110c7e314953B84Afc",
+    "decimals": 8
+  },
+  {
+    "address": "0x98C49e13bf99D7CAd8069faa2A370933EC9EcF17",
+    "chainId": 1,
+    "decimals": 6,
+    "name": "LVUSDC",
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  },
+  {
+    "address": "0x67e536797570b3d8919Df052484273815A0aB506",
+    "chainId": 1,
+    "decimals": 18,
+    "name": "LVWETH",
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+  },
+  {
+    "address": "0x2E6abcbCCeD9Af05bc3B8a4908e0c98c29A88e10",
+    "chainId": 1,
+    "decimals": 18,
+    "name": "LVWETH",
+    "assetAddress": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+  },
+  {
+    "address": "0xE9cDA459bED6dcfb8AC61CD8cE08E2D52370cB06",
+    "chainId": 1,
+    "decimals": 6,
+    "name": "LVUSDC",
+    "assetAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+  }
+]
