@@ -21,7 +21,8 @@
     "test:coverage": "vitest --coverage",
     "fill-vaults-missing-data": "tsx scripts/fillVaultsMissingData.ts",
     "resolve-vaults-for-owner": "tsx scripts/resolveVaultsForOwner.ts",
-    "resolve-tokens-for-owner": "tsx scripts/resolveTokensForOwner.ts"
+    "resolve-tokens-for-owner": "tsx scripts/resolveTokensForOwner.ts",
+    "resolve-morpho-vault": "tsx scripts/resolveMorphoVault.ts"
   },
   "dependencies": {
     "dotenv": "16.4.5",
