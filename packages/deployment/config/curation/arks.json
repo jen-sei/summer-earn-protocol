@@ -15,7 +15,7 @@
     "arkMaxOutflow": 3570,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -69,7 +69,7 @@
     "arkMaxOutflow": 1580,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -87,7 +87,7 @@
     "arkMaxOutflow": 930,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -159,7 +159,7 @@
     "arkMaxOutflow": 1590,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -177,7 +177,7 @@
     "arkMaxOutflow": 0,
     "reallocInterval": "10m",
     "deployedBySummerFi": "No",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -195,7 +195,7 @@
     "arkMaxOutflow": 3600,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -249,7 +249,7 @@
     "arkMaxOutflow": 5000000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -321,7 +321,7 @@
     "arkMaxOutflow": 2480000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -375,7 +375,7 @@
     "arkMaxOutflow": 2480000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -393,7 +393,7 @@
     "arkMaxOutflow": 15100000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -447,7 +447,7 @@
     "arkMaxOutflow": 27000000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -465,7 +465,7 @@
     "arkMaxOutflow": 7800000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -483,7 +483,7 @@
     "arkMaxOutflow": 560000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -519,7 +519,7 @@
     "arkMaxOutflow": 2290000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -591,7 +591,7 @@
     "arkMaxOutflow": 19200000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -609,7 +609,7 @@
     "arkMaxOutflow": 43000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -657,9 +657,9 @@
     "ark": "morpho",
     "fleetAsset": "USDT",
     "arkSymbol": "morpho_gauntlet_usdt_prime",
-    "arkMaxCap": 3020000,
-    "arkMaxPercTVL": 0.32,
-    "arkMaxInflow": 3020000,
+    "arkMaxCap": 0,
+    "arkMaxPercTVL": 0.0,
+    "arkMaxInflow": 0,
     "arkMaxOutflow": 3020000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
@@ -699,7 +699,7 @@
     "arkMaxOutflow": 6400000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -735,7 +735,7 @@
     "arkMaxOutflow": 3890000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -753,7 +753,7 @@
     "arkMaxOutflow": 7700000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -771,7 +771,7 @@
     "arkMaxOutflow": 102000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -789,7 +789,7 @@
     "arkMaxOutflow": 7200000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -843,7 +843,7 @@
     "arkMaxOutflow": 6080000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -861,7 +861,7 @@
     "arkMaxOutflow": 380000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -951,7 +951,7 @@
     "arkMaxOutflow": 5940000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -987,7 +987,7 @@
     "arkMaxOutflow": 1900000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1149,7 +1149,7 @@
     "arkMaxOutflow": 6800000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1185,12 +1185,12 @@
     "arkMaxOutflow": 5940000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
     "chain": "base",
-    "arkAddress": "",
+    "arkAddress": "0x6B58aeeaDd96dbfEAcF90948e26d51C506213766",
     "fleetAddress": "0x98C49e13bf99D7CAd8069faa2A370933EC9EcF17",
     "fleetCap": 18000000,
     "FleetMinimumBuffer": 100,
@@ -1200,10 +1200,10 @@
     "arkMaxCap": 0,
     "arkMaxPercTVL": 0.0,
     "arkMaxInflow": 0,
-    "arkMaxOutflow": 2650000,
+    "arkMaxOutflow": 0,
     "reallocInterval": "10m",
-    "deployedBySummerFi": "No",
-    "WhiteListedByBA": "Yes"
+    "deployedBySummerFi": "Yes",
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1311,7 +1311,7 @@
     "arkMaxOutflow": 320000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1419,7 +1419,7 @@
     "arkMaxOutflow": 5300000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1455,7 +1455,7 @@
     "arkMaxOutflow": 2610000,
     "reallocInterval": "1m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1581,7 +1581,7 @@
     "arkMaxOutflow": 1000000,
     "reallocInterval": "1m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1599,7 +1599,7 @@
     "arkMaxOutflow": 6600000,
     "reallocInterval": "1m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1617,7 +1617,7 @@
     "arkMaxOutflow": 26300,
     "reallocInterval": "1m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1653,7 +1653,7 @@
     "arkMaxOutflow": 780000,
     "reallocInterval": "1m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1725,7 +1725,7 @@
     "arkMaxOutflow": 630000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1743,7 +1743,7 @@
     "arkMaxOutflow": 19200,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1761,7 +1761,7 @@
     "arkMaxOutflow": 290000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1779,7 +1779,7 @@
     "arkMaxOutflow": 5100000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1797,7 +1797,7 @@
     "arkMaxOutflow": 8600,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1815,7 +1815,7 @@
     "arkMaxOutflow": 470000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1833,7 +1833,7 @@
     "arkMaxOutflow": 314000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1851,7 +1851,7 @@
     "arkMaxOutflow": 244000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1887,7 +1887,7 @@
     "arkMaxOutflow": 48,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1923,7 +1923,7 @@
     "arkMaxOutflow": 880,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1941,7 +1941,7 @@
     "arkMaxOutflow": 1140,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1959,7 +1959,7 @@
     "arkMaxOutflow": 25,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -1995,7 +1995,7 @@
     "arkMaxOutflow": 235,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -2013,7 +2013,7 @@
     "arkMaxOutflow": 301,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "low",
@@ -2085,7 +2085,7 @@
     "arkMaxOutflow": 8000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2103,7 +2103,7 @@
     "arkMaxOutflow": 4700,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2121,7 +2121,7 @@
     "arkMaxOutflow": 2580,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2139,7 +2139,7 @@
     "arkMaxOutflow": 45,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2157,7 +2157,7 @@
     "arkMaxOutflow": 1560,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2175,7 +2175,7 @@
     "arkMaxOutflow": 1430,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2193,7 +2193,7 @@
     "arkMaxOutflow": 4,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2211,7 +2211,7 @@
     "arkMaxOutflow": 830,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2229,7 +2229,7 @@
     "arkMaxOutflow": 4600,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2247,7 +2247,7 @@
     "arkMaxOutflow": 690,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2265,7 +2265,7 @@
     "arkMaxOutflow": 690,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2283,7 +2283,7 @@
     "arkMaxOutflow": 14000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2301,7 +2301,7 @@
     "arkMaxOutflow": 850,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2319,7 +2319,7 @@
     "arkMaxOutflow": 154,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2368,7 +2368,7 @@
     "fleetAsset": "WETH",
     "arkSymbol": "WETH",
     "arkMaxCap": 11300,
-    "arkMaxPercTVL": 1.0,
+    "arkMaxPercTVL": 0.82,
     "arkMaxInflow": 11300,
     "arkMaxOutflow": 11300,
     "reallocInterval": "10m",
@@ -2409,7 +2409,7 @@
     "arkMaxOutflow": 9600,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2427,7 +2427,7 @@
     "arkMaxOutflow": 1010,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2445,7 +2445,7 @@
     "arkMaxOutflow": 410,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2457,10 +2457,10 @@
     "ark": "fluidLite",
     "fleetAsset": "WETH",
     "arkSymbol": "WETH",
-    "arkMaxCap": 0,
-    "arkMaxPercTVL": 0.0,
-    "arkMaxInflow": 0,
-    "arkMaxOutflow": 5250,
+    "arkMaxCap": 6900,
+    "arkMaxPercTVL": 0.68,
+    "arkMaxInflow": 6900,
+    "arkMaxOutflow": 6900,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
     "WhiteListedByBA": "Yes"
@@ -2481,7 +2481,7 @@
     "arkMaxOutflow": 11000000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2517,7 +2517,7 @@
     "arkMaxOutflow": 11800000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2535,7 +2535,7 @@
     "arkMaxOutflow": 5280000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2553,7 +2553,7 @@
     "arkMaxOutflow": 1800000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2571,7 +2571,7 @@
     "arkMaxOutflow": 1590000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2589,7 +2589,7 @@
     "arkMaxOutflow": 2200000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2607,7 +2607,7 @@
     "arkMaxOutflow": 1180000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2625,7 +2625,7 @@
     "arkMaxOutflow": 10500000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2643,7 +2643,7 @@
     "arkMaxOutflow": 800000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2697,7 +2697,7 @@
     "arkMaxOutflow": 5370000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2751,7 +2751,7 @@
     "arkMaxOutflow": 1870000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2769,7 +2769,7 @@
     "arkMaxOutflow": 14500,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2787,7 +2787,7 @@
     "arkMaxOutflow": 9700000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2823,7 +2823,7 @@
     "arkMaxOutflow": 133000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2841,7 +2841,7 @@
     "arkMaxOutflow": 2470000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2931,7 +2931,7 @@
     "arkMaxOutflow": 3500000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -2967,7 +2967,7 @@
     "arkMaxOutflow": 28500000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -3021,7 +3021,7 @@
     "arkMaxOutflow": 420000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -3039,7 +3039,7 @@
     "arkMaxOutflow": 2720000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   },
   {
     "risk": "mid",
@@ -3057,6 +3057,6 @@
     "arkMaxOutflow": 9300000,
     "reallocInterval": "10m",
     "deployedBySummerFi": "Yes",
-    "WhiteListedByBA": "Yes"
+    "WhiteListedByBA": "No"
   }
 ]
