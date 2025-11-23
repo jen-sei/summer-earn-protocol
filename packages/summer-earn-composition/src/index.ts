@@ -6,6 +6,7 @@ import { getHandlerForProduct, type ProtocolHandlerContext } from './registry'
 import type { ChainId, ProductComposition, ProductDescriptor } from './types'
 
 export * from './types'
+export * from './handlers/morphoVault'
 
 export interface GetProductCompositionParams {
   product: ProductDescriptor

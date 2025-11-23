@@ -23,6 +23,13 @@ const metaMorphoAbi = [
     stateMutability: 'view',
     type: 'function',
   },
+  {
+    inputs: [],
+    name: 'totalAssets',
+    outputs: [{ internalType: 'uint256', name: '', type: 'uint256' }],
+    stateMutability: 'view',
+    type: 'function',
+  },
 ] as const satisfies Abi
 
 // IMorpho ABI - minimal interface for idToMarketParams and position
@@ -68,27 +75,55 @@ const morphoAbi = [
     stateMutability: 'view',
     type: 'function',
   },
+  {
+    inputs: [{ internalType: 'bytes32', name: 'id', type: 'bytes32' }],
+    name: 'market',
+    outputs: [
+      {
+        components: [
+          { internalType: 'uint128', name: 'totalSupplyAssets', type: 'uint128' },
+          { internalType: 'uint128', name: 'totalSupplyShares', type: 'uint128' },
+          { internalType: 'uint128', name: 'totalBorrowAssets', type: 'uint128' },
+          { internalType: 'uint128', name: 'totalBorrowShares', type: 'uint128' },
+          { internalType: 'uint128', name: 'lastUpdate', type: 'uint128' },
+          { internalType: 'uint128', name: 'fee', type: 'uint128' },
+        ],
+        internalType: 'struct Market',
+        name: '',
+        type: 'tuple',
+      },
+    ],
+    stateMutability: 'view',
+    type: 'function',
+  },
 ] as const satisfies Abi
 
 type MarketId = `0x${string}`
 
 type MorphoVaultContext = {
+  vaultTotalAssets?: bigint
   supplyQueueLength?: bigint
   marketIds: MarketId[]
-  marketParams: Map<MarketId, { loanToken: Address; collateralToken: Address }>
+  marketParams: Map<MarketId, { loanToken: Address; collateralToken: Address; lltv: bigint }>
   positions: Map<MarketId, { supplyShares: bigint; collateral: bigint }>
+  marketState: Map<MarketId, { totalSupplyAssets: bigint; totalSupplyShares: bigint }>
   tokenSymbols: Map<Address, string>
+  tokenDecimals: Map<Address, number>
 }
 
 export interface MorphoVaultResolution {
+  vaultTotalAssets: bigint
   markets: Array<{
     marketId: MarketId
     loanToken: Address
     collateralToken: Address
     loanTokenSymbol?: string
     collateralTokenSymbol?: string
+    collateralTokenDecimals?: number
     supplyShares: bigint
+    supplyAssets: bigint
     collateral: bigint
+    lltv: bigint
   }>
 }
 
@@ -101,7 +136,9 @@ function buildMorphoVaultTask(params: { vault: Address }): MorphoVaultTask {
     marketIds: [],
     marketParams: new Map(),
     positions: new Map(),
+    marketState: new Map(),
     tokenSymbols: new Map(),
+    tokenDecimals: new Map(),
   }
 
   const task: MorphoVaultTask = {
@@ -109,13 +146,19 @@ function buildMorphoVaultTask(params: { vault: Address }): MorphoVaultTask {
 
     buildStepCalls(step) {
       if (step === 1) {
-        // Step 1: Get supplyQueueLength
+        // Step 1: Get supplyQueueLength and vaultTotalAssets
         return [
           {
             key: 'supplyQueueLength',
             target: vault,
             abi: metaMorphoAbi as Abi,
             functionName: 'supplyQueueLength',
+          },
+          {
+            key: 'vaultTotalAssets',
+            target: vault,
+            abi: metaMorphoAbi as Abi,
+            functionName: 'totalAssets',
           },
         ]
       }
@@ -148,7 +191,7 @@ function buildMorphoVaultTask(params: { vault: Address }): MorphoVaultTask {
       }
 
       if (step === 3) {
-        // Step 3: Get market params and positions for each market ID
+        // Step 3: Get market params, positions, and market state for each market ID
         if (ctx.marketIds.length === 0) {
           return []
         }
@@ -177,6 +220,13 @@ function buildMorphoVaultTask(params: { vault: Address }): MorphoVaultTask {
               functionName: 'position',
               args: [marketId, vault],
             },
+            {
+              key: `market_${marketId}`,
+              target: MORPHO_ADDRESS,
+              abi: morphoAbi as Abi,
+              functionName: 'market',
+              args: [marketId],
+            },
           )
         }
 
@@ -184,7 +234,7 @@ function buildMorphoVaultTask(params: { vault: Address }): MorphoVaultTask {
       }
 
       if (step === 4) {
-        // Step 4: Get ERC20 symbols for all unique tokens
+        // Step 4: Get ERC20 symbols and decimals for all unique tokens
         const uniqueTokens = new Set<Address>()
         for (const params of ctx.marketParams.values()) {
           uniqueTokens.add(params.loanToken)
@@ -199,12 +249,20 @@ function buildMorphoVaultTask(params: { vault: Address }): MorphoVaultTask {
         }[] = []
 
         for (const token of uniqueTokens) {
-          calls.push({
-            key: `symbol_${token}`,
-            target: token,
-            abi: erc20Abi as Abi,
-            functionName: 'symbol',
-          })
+          calls.push(
+            {
+              key: `symbol_${token}`,
+              target: token,
+              abi: erc20Abi as Abi,
+              functionName: 'symbol',
+            },
+            {
+              key: `decimals_${token}`,
+              target: token,
+              abi: erc20Abi as Abi,
+              functionName: 'decimals',
+            },
+          )
         }
 
         return calls
@@ -218,6 +276,9 @@ function buildMorphoVaultTask(params: { vault: Address }): MorphoVaultTask {
         for (const result of results) {
           if (result.key === 'supplyQueueLength') {
             ctx.supplyQueueLength = BigInt(result.value as string | bigint)
+          }
+          if (result.key === 'vaultTotalAssets') {
+            ctx.vaultTotalAssets = BigInt(result.value as string | bigint)
           }
         }
       }
@@ -235,10 +296,15 @@ function buildMorphoVaultTask(params: { vault: Address }): MorphoVaultTask {
         for (const result of results) {
           if (result.key.startsWith('marketParams_')) {
             const marketId = result.key.replace('marketParams_', '') as MarketId
-            const params = result.value as { loanToken: Address; collateralToken: Address }
+            const params = result.value as {
+              loanToken: Address
+              collateralToken: Address
+              lltv: bigint
+            }
             ctx.marketParams.set(marketId, {
               loanToken: params.loanToken,
               collateralToken: params.collateralToken,
+              lltv: params.lltv,
             })
           }
 
@@ -254,6 +320,18 @@ function buildMorphoVaultTask(params: { vault: Address }): MorphoVaultTask {
               collateral: BigInt(position.collateral),
             })
           }
+
+          if (result.key.startsWith('market_')) {
+            const marketId = result.key.replace('market_', '') as MarketId
+            const market = result.value as {
+              totalSupplyAssets: bigint | string
+              totalSupplyShares: bigint | string
+            }
+            ctx.marketState.set(marketId, {
+              totalSupplyAssets: BigInt(market.totalSupplyAssets),
+              totalSupplyShares: BigInt(market.totalSupplyShares),
+            })
+          }
         }
       }
 
@@ -264,6 +342,11 @@ function buildMorphoVaultTask(params: { vault: Address }): MorphoVaultTask {
             const symbol = result.value as string
             ctx.tokenSymbols.set(token, symbol)
           }
+          if (result.key.startsWith('decimals_')) {
+            const token = result.key.replace('decimals_', '') as Address
+            const decimals = result.value as number
+            ctx.tokenDecimals.set(token, decimals)
+          }
         }
       }
     },
@@ -272,10 +355,20 @@ function buildMorphoVaultTask(params: { vault: Address }): MorphoVaultTask {
       const markets = ctx.marketIds.map((marketId) => {
         const params = ctx.marketParams.get(marketId)
         const position = ctx.positions.get(marketId)
+        const state = ctx.marketState.get(marketId)
 
-        if (!params || !position) {
+        if (!params || !position || !state) {
+          // Might fail if multicall partial failure wasn't handled or data missing
+          // But here we assume strict success or throw
           throw new Error(`Missing data for market ${marketId}`)
         }
+
+        // Convert Shares to Assets
+        // assets = shares * totalAssets / totalShares
+        const supplyAssets =
+          state.totalSupplyShares === 0n
+            ? 0n
+            : (position.supplyShares * state.totalSupplyAssets) / state.totalSupplyShares
 
         return {
           marketId,
@@ -283,12 +376,25 @@ function buildMorphoVaultTask(params: { vault: Address }): MorphoVaultTask {
           collateralToken: params.collateralToken,
           loanTokenSymbol: ctx.tokenSymbols.get(params.loanToken),
           collateralTokenSymbol: ctx.tokenSymbols.get(params.collateralToken),
+          collateralTokenDecimals: ctx.tokenDecimals.get(params.collateralToken),
           supplyShares: position.supplyShares,
+          supplyAssets,
           collateral: position.collateral,
+          lltv: params.lltv,
         }
       })
+      // Filter out empty positions to keep result clean?
+      // Or keep them to show full queue?
+      // Usually for risk we only care about where money IS.
+      // But user might want to know empty capacity.
+      // Let's filter for now to reduce noise, or leave it to the consumer.
+      // The previous implementation filtered for supplyShares > 0.
+      // I'll leave all in, and let consumer filter.
 
-      return { markets }
+      return {
+        vaultTotalAssets: ctx.vaultTotalAssets || 0n,
+        markets,
+      }
     },
   }
 
@@ -299,10 +405,10 @@ function buildMorphoVaultTask(params: { vault: Address }): MorphoVaultTask {
  * Low-level Morpho vault resolver.
  *
  * Resolves all markets in a Morpho vault's supply queue:
- * - Step 1: Get supplyQueueLength
+ * - Step 1: Get supplyQueueLength and vaultTotalAssets
  * - Step 2: Get all market IDs from supplyQueue
- * - Step 3: Get market params and positions for each market
- * - Step 4: Get ERC20 symbols for human-readable token names
+ * - Step 3: Get market params, positions, and state for each market
+ * - Step 4: Get ERC20 symbols/decimals for human-readable token names
  */
 export async function resolveMorphoVault(params: {
   client: PublicClient
@@ -351,7 +457,9 @@ export class MorphoVaultHandler implements ProtocolHandler {
       .map((market) => ({
         marketAddress: MORPHO_ADDRESS,
         underlyingToken: market.loanToken,
-        amount: market.supplyShares, // Note: This is shares, not assets. May need conversion.
+        amount: market.supplyAssets, // Using Assets now
+        // Note: We might want to expose collateral info here too, but ProductComposition type
+        // is generic. For risk dashboard we might use resolveMorphoVault directly.
       }))
 
     return {
