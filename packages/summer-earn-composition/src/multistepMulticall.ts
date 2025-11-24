@@ -103,6 +103,7 @@ export async function runMultistepTasks<TResult>(
     tasks.forEach((task, taskIndex) => {
       if (step > task.maxStep) return
       const calls = task.buildStepCalls(step)
+      console.log('calls', calls)
       for (const call of calls) {
         contracts.push({
           address: call.target,
