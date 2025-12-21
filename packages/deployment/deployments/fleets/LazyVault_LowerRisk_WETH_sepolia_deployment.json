@@ -1,0 +1,14 @@
+{
+  "fleetName": "LazyVault_LowerRisk_WETH",
+  "isBummer": true,
+  "fleetSymbol": "LVWETH",
+  "assetSymbol": "WETH",
+  "fleetAddress": "0xeaDBbFC3aD27a6CFE1e785598F4Ff6909DeC2D82",
+  "bufferArkAddress": "0xd37582a2fC674527C7d5115888665bd4F805CaB7",
+  "network": "sepolia",
+  "arks": [],
+  "initialMinimumBufferBalance": "0",
+  "initialRebalanceCooldown": "3600",
+  "depositCap": "0",
+  "initialTipRate": "300000000000000000"
+}

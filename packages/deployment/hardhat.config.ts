@@ -63,7 +63,7 @@ const config: HardhatUserConfig = {
     settings: {
       optimizer: {
         enabled: true,
-        runs: 50,
+        runs: 10,
       },
       evmVersion: 'cancun',
       viaIR: true,
@@ -122,6 +122,11 @@ const config: HardhatUserConfig = {
       url: `${process.env.HYPERLIQUID_RPC_URL}`,
       accounts: [`0x${process.env.DEPLOYER_PRIV_KEY}`],
       chainId: 999,
+    },
+    sepolia: {
+      url: `${process.env.SEPOLIA_MAINNET_RPC_URL}`,
+      accounts: [`0x${process.env.DEPLOYER_PRIV_KEY}`],
+      chainId: 11155111,
     },
 
     // testnets

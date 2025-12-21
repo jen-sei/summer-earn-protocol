@@ -1,0 +1,10 @@
+{
+  "CoreModule#ConfigurationManager": "0xcA2e14c7C03C9961c296C89e2d2279F5F7DB15b4",
+  "CoreModule#DutchAuctionLibrary": "0xdF8b1E08679D6035b6c1504e04C5C9e72a0555Fe",
+  "CoreModule#FleetCommanderRewardsManagerFactory": "0x4cEeE1b6289624d381383C1Bb42B118d5f2c3274",
+  "CoreModule#HarborCommand": "0xAf755eD8D76Fdceab2B1cdC0d4C8C94f4e8eEe54",
+  "CoreModule#AdmiralsQuarters": "0xf617F06a1f2992Ee789B2bA69D1fE8DD49491D0c",
+  "CoreModule#Raft": "0xa2B387C36Bd67D69755a372F383087C82a96f1f1",
+  "CoreModule#TipJar": "0x393e981A6b76A18CC5A0FB619C6a218D4E53B4B4",
+  "FleetModule_LazyVault_LowerRisk_WETH#FleetCommander": "0xeaDBbFC3aD27a6CFE1e785598F4Ff6909DeC2D82"
+}

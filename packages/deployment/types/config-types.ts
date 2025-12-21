@@ -9,6 +9,7 @@ export enum SupportedNetworks {
   ARBITRUM = 'arbitrum',
   SONIC = 'sonic',
   HYPERLIQUID = 'hyperliquid',
+  SEPOLIA = 'sepolia',
 }
 // Supported Arks
 export enum ArkType {

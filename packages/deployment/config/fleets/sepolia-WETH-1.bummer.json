@@ -1,0 +1,20 @@
+{
+  "fleetName": "LazyVault_LowerRisk_WETH",
+  "symbol": "LVWETH",
+  "assetSymbol": "WETH",
+  "initialMinimumBufferBalance": "0",
+  "initialRebalanceCooldown": "3600",
+  "depositCap": "0",
+  "initialTipRate": "300000000000000000",
+  "network": "sepolia",
+  "details": "",
+  "discourseURL": "https://forum.summer.fi/t/sip1-4-onbaord-lower-risk-eth-vault-on-base/171",
+  "sipNumber": "10",
+  "rewardTokens": [],
+  "rewardAmounts": [],
+  "rewardsDuration": 0,
+  "curator": "0x0f0fA89471259433b6955827226f19999D93c568",
+  "arks": [
+   
+  ]
+}
